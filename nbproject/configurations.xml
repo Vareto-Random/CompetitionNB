@@ -1,0 +1,2183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="src">
+        <df name="bin">
+          <in>extractFeatures.m</in>
+          <in>features.m</in>
+        </df>
+        <df name="dlib">
+          <df name="all">
+            <in>source.cpp</in>
+          </df>
+          <df name="base64">
+            <in>base64_kernel_1.cpp</in>
+          </df>
+          <df name="bigint">
+            <in>bigint_kernel_1.cpp</in>
+            <in>bigint_kernel_2.cpp</in>
+          </df>
+          <df name="bit_stream">
+            <in>bit_stream_kernel_1.cpp</in>
+          </df>
+          <df name="bsp">
+            <in>bsp.cpp</in>
+          </df>
+          <df name="build">
+            <df name="CMakeFiles">
+              <df name="2.8.12.2">
+                <df name="CompilerIdC">
+                  <in>CMakeCCompilerId.c</in>
+                </df>
+                <df name="CompilerIdCXX">
+                  <in>CMakeCXXCompilerId.cpp</in>
+                </df>
+              </df>
+              <df name="CheckTypeSize">
+                <in>SIZE_OF_VOID_PTR.c</in>
+              </df>
+            </df>
+          </df>
+          <df name="data_io">
+            <in>image_dataset_metadata.cpp</in>
+          </df>
+          <df name="dir_nav">
+            <in>dir_nav_extensions.cpp</in>
+            <in>dir_nav_kernel_1.cpp</in>
+            <in>dir_nav_kernel_2.cpp</in>
+          </df>
+          <df name="entropy_decoder">
+            <in>entropy_decoder_kernel_1.cpp</in>
+            <in>entropy_decoder_kernel_2.cpp</in>
+          </df>
+          <df name="entropy_encoder">
+            <in>entropy_encoder_kernel_1.cpp</in>
+            <in>entropy_encoder_kernel_2.cpp</in>
+          </df>
+          <df name="external">
+            <df name="libjpeg">
+              <in>jcapimin.cpp</in>
+              <in>jcapistd.cpp</in>
+              <in>jccoefct.cpp</in>
+              <in>jccolor.cpp</in>
+              <in>jcdctmgr.cpp</in>
+              <in>jchuff.cpp</in>
+              <in>jcinit.cpp</in>
+              <in>jcmainct.cpp</in>
+              <in>jcmarker.cpp</in>
+              <in>jcmaster.cpp</in>
+              <in>jcomapi.cpp</in>
+              <in>jcparam.cpp</in>
+              <in>jcphuff.cpp</in>
+              <in>jcprepct.cpp</in>
+              <in>jcsample.cpp</in>
+              <in>jdapimin.cpp</in>
+              <in>jdapistd.cpp</in>
+              <in>jdatadst.cpp</in>
+              <in>jdatasrc.cpp</in>
+              <in>jdcoefct.cpp</in>
+              <in>jdcolor.cpp</in>
+              <in>jddctmgr.cpp</in>
+              <in>jdhuff.cpp</in>
+              <in>jdinput.cpp</in>
+              <in>jdmainct.cpp</in>
+              <in>jdmarker.cpp</in>
+              <in>jdmaster.cpp</in>
+              <in>jdmerge.cpp</in>
+              <in>jdphuff.cpp</in>
+              <in>jdpostct.cpp</in>
+              <in>jdsample.cpp</in>
+              <in>jerror.cpp</in>
+              <in>jfdctflt.cpp</in>
+              <in>jfdctfst.cpp</in>
+              <in>jfdctint.cpp</in>
+              <in>jidctflt.cpp</in>
+              <in>jidctfst.cpp</in>
+              <in>jidctint.cpp</in>
+              <in>jidctred.cpp</in>
+              <in>jmemmgr.cpp</in>
+              <in>jmemnobs.cpp</in>
+              <in>jquant1.cpp</in>
+              <in>jquant2.cpp</in>
+              <in>jutils.cpp</in>
+            </df>
+            <df name="libpng">
+              <in>png.c</in>
+              <in>pngerror.c</in>
+              <in>pngget.c</in>
+              <in>pngmem.c</in>
+              <in>pngpread.c</in>
+              <in>pngread.c</in>
+              <in>pngrio.c</in>
+              <in>pngrtran.c</in>
+              <in>pngrutil.c</in>
+              <in>pngset.c</in>
+              <in>pngtrans.c</in>
+              <in>pngwio.c</in>
+              <in>pngwrite.c</in>
+              <in>pngwtran.c</in>
+              <in>pngwutil.c</in>
+            </df>
+            <df name="zlib">
+              <in>adler32.c</in>
+              <in>compress.c</in>
+              <in>crc32.c</in>
+              <in>deflate.c</in>
+              <in>gzclose.c</in>
+              <in>gzlib.c</in>
+              <in>gzread.c</in>
+              <in>gzwrite.c</in>
+              <in>infback.c</in>
+              <in>inffast.c</in>
+              <in>inflate.c</in>
+              <in>inftrees.c</in>
+              <in>trees.c</in>
+              <in>uncompr.c</in>
+              <in>zutil.c</in>
+            </df>
+          </df>
+          <df name="gui_core">
+            <in>gui_core_kernel_1.cpp</in>
+            <in>gui_core_kernel_2.cpp</in>
+          </df>
+          <df name="gui_widgets">
+            <in>base_widgets.cpp</in>
+            <in>canvas_drawing.cpp</in>
+            <in>drawable.cpp</in>
+            <in>fonts.cpp</in>
+            <in>style.cpp</in>
+            <in>widgets.cpp</in>
+          </df>
+          <df name="http_client">
+            <in>http_client.cpp</in>
+          </df>
+          <df name="image_loader">
+            <in>jpeg_loader.cpp</in>
+            <in>png_loader.cpp</in>
+          </df>
+          <df name="image_saver">
+            <in>save_jpeg.cpp</in>
+            <in>save_png.cpp</in>
+          </df>
+          <df name="linker">
+            <in>linker_kernel_1.cpp</in>
+          </df>
+          <df name="logger">
+            <in>extra_logger_headers.cpp</in>
+            <in>logger_config_file.cpp</in>
+            <in>logger_kernel_1.cpp</in>
+          </df>
+          <df name="matlab">
+            <in>example.m</in>
+            <in>example_mex_callback.cpp</in>
+            <in>example_mex_function.cpp</in>
+            <in>mex_wrapper.cpp</in>
+          </df>
+          <df name="md5">
+            <in>md5_kernel_1.cpp</in>
+          </df>
+          <df name="misc_api">
+            <in>misc_api_kernel_1.cpp</in>
+            <in>misc_api_kernel_2.cpp</in>
+          </df>
+          <df name="server">
+            <in>server_http.cpp</in>
+            <in>server_iostream.cpp</in>
+            <in>server_kernel.cpp</in>
+          </df>
+          <df name="sockets">
+            <in>sockets_extensions.cpp</in>
+            <in>sockets_kernel_1.cpp</in>
+            <in>sockets_kernel_2.cpp</in>
+          </df>
+          <df name="sockstreambuf">
+            <in>sockstreambuf.cpp</in>
+            <in>sockstreambuf_unbuffered.cpp</in>
+          </df>
+          <df name="test">
+            <df name="blas_bindings">
+              <in>blas_bindings_dot.cpp</in>
+              <in>blas_bindings_gemm.cpp</in>
+              <in>blas_bindings_gemv.cpp</in>
+              <in>blas_bindings_ger.cpp</in>
+              <in>blas_bindings_scal_axpy.cpp</in>
+              <in>vector.cpp</in>
+            </df>
+            <df name="gui">
+              <in>main.cpp</in>
+            </df>
+            <in>active_learning.cpp</in>
+            <in>any.cpp</in>
+            <in>any_function.cpp</in>
+            <in>array.cpp</in>
+            <in>array2d.cpp</in>
+            <in>assignment_learning.cpp</in>
+            <in>base64.cpp</in>
+            <in>bayes_nets.cpp</in>
+            <in>bigint.cpp</in>
+            <in>binary_search_tree_kernel_1a.cpp</in>
+            <in>binary_search_tree_kernel_2a.cpp</in>
+            <in>binary_search_tree_mm1.cpp</in>
+            <in>binary_search_tree_mm2.cpp</in>
+            <in>bridge.cpp</in>
+            <in>bsp.cpp</in>
+            <in>byte_orderer.cpp</in>
+            <in>cca.cpp</in>
+            <in>clustering.cpp</in>
+            <in>cmd_line_parser.cpp</in>
+            <in>cmd_line_parser_wchar_t.cpp</in>
+            <in>compress_stream.cpp</in>
+            <in>conditioning_class.cpp</in>
+            <in>conditioning_class_c.cpp</in>
+            <in>config_reader.cpp</in>
+            <in>crc32.cpp</in>
+            <in>create_iris_datafile.cpp</in>
+            <in>data_io.cpp</in>
+            <in>directed_graph.cpp</in>
+            <in>discriminant_pca.cpp</in>
+            <in>disjoint_subsets.cpp</in>
+            <in>ekm_and_lisf.cpp</in>
+            <in>empirical_kernel_map.cpp</in>
+            <in>entropy_coder.cpp</in>
+            <in>entropy_encoder_model.cpp</in>
+            <in>example.cpp</in>
+            <in>example_args.cpp</in>
+            <in>face.cpp</in>
+            <in>fft.cpp</in>
+            <in>fhog.cpp</in>
+            <in>filtering.cpp</in>
+            <in>find_max_factor_graph_nmplp.cpp</in>
+            <in>find_max_factor_graph_viterbi.cpp</in>
+            <in>geometry.cpp</in>
+            <in>graph.cpp</in>
+            <in>graph_cuts.cpp</in>
+            <in>graph_labeler.cpp</in>
+            <in>hash.cpp</in>
+            <in>hash_map.cpp</in>
+            <in>hash_set.cpp</in>
+            <in>hash_table.cpp</in>
+            <in>hog_image.cpp</in>
+            <in>image.cpp</in>
+            <in>iosockstream.cpp</in>
+            <in>is_same_object.cpp</in>
+            <in>kcentroid.cpp</in>
+            <in>kernel_matrix.cpp</in>
+            <in>kmeans.cpp</in>
+            <in>learning_to_track.cpp</in>
+            <in>least_squares.cpp</in>
+            <in>linear_manifold_regularizer.cpp</in>
+            <in>lspi.cpp</in>
+            <in>lz77_buffer.cpp</in>
+            <in>main.cpp</in>
+            <in>map.cpp</in>
+            <in>matrix.cpp</in>
+            <in>matrix2.cpp</in>
+            <in>matrix3.cpp</in>
+            <in>matrix4.cpp</in>
+            <in>matrix_chol.cpp</in>
+            <in>matrix_eig.cpp</in>
+            <in>matrix_lu.cpp</in>
+            <in>matrix_qr.cpp</in>
+            <in>max_cost_assignment.cpp</in>
+            <in>max_sum_submatrix.cpp</in>
+            <in>md5.cpp</in>
+            <in>member_function_pointer.cpp</in>
+            <in>metaprogramming.cpp</in>
+            <in>mpc.cpp</in>
+            <in>multithreaded_object.cpp</in>
+            <in>numerical_integration.cpp</in>
+            <in>object_detector.cpp</in>
+            <in>oca.cpp</in>
+            <in>one_vs_all_trainer.cpp</in>
+            <in>one_vs_one_trainer.cpp</in>
+            <in>opt_qp_solver.cpp</in>
+            <in>optimization.cpp</in>
+            <in>optimization_test_functions.cpp</in>
+            <in>parallel_for.cpp</in>
+            <in>parse.cpp</in>
+            <in>pipe.cpp</in>
+            <in>pixel.cpp</in>
+            <in>probabilistic.cpp</in>
+            <in>pyramid_down.cpp</in>
+            <in>queue.cpp</in>
+            <in>rand.cpp</in>
+            <in>ranking.cpp</in>
+            <in>read_write_mutex.cpp</in>
+            <in>reference_counter.cpp</in>
+            <in>rls.cpp</in>
+            <in>sammon.cpp</in>
+            <in>scan_image.cpp</in>
+            <in>sequence.cpp</in>
+            <in>sequence_labeler.cpp</in>
+            <in>sequence_segmenter.cpp</in>
+            <in>serialize.cpp</in>
+            <in>set.cpp</in>
+            <in>sldf.cpp</in>
+            <in>sliding_buffer.cpp</in>
+            <in>smart_pointers.cpp</in>
+            <in>sockets.cpp</in>
+            <in>sockets2.cpp</in>
+            <in>sockstreambuf.cpp</in>
+            <in>sparse_vector.cpp</in>
+            <in>stack.cpp</in>
+            <in>static_map.cpp</in>
+            <in>static_set.cpp</in>
+            <in>statistics.cpp</in>
+            <in>std_vector_c.cpp</in>
+            <in>string.cpp</in>
+            <in>svm.cpp</in>
+            <in>svm_c_linear.cpp</in>
+            <in>svm_c_linear_dcd.cpp</in>
+            <in>svm_multiclass_linear.cpp</in>
+            <in>svm_struct.cpp</in>
+            <in>svr_linear_trainer.cpp</in>
+            <in>symmetric_matrix_cache.cpp</in>
+            <in>tester.cpp</in>
+            <in>thread_pool.cpp</in>
+            <in>threads.cpp</in>
+            <in>timer.cpp</in>
+            <in>tokenizer.cpp</in>
+            <in>trust_region.cpp</in>
+            <in>tuple.cpp</in>
+            <in>type_safe_union.cpp</in>
+            <in>vectorstream.cpp</in>
+          </df>
+          <df name="threads">
+            <in>multithreaded_object_extension.cpp</in>
+            <in>thread_pool_extension.cpp</in>
+            <in>threaded_object_extension.cpp</in>
+            <in>threads_kernel_1.cpp</in>
+            <in>threads_kernel_2.cpp</in>
+            <in>threads_kernel_shared.cpp</in>
+          </df>
+          <df name="timer">
+            <in>timer.cpp</in>
+          </df>
+          <df name="tokenizer">
+            <in>tokenizer_kernel_1.cpp</in>
+          </df>
+          <df name="unicode">
+            <in>unicode.cpp</in>
+          </df>
+          <in>all_console.cpp</in>
+          <in>all_gui.cpp</in>
+          <in>stack_trace.cpp</in>
+        </df>
+        <in>Annotation.cpp</in>
+        <in>Cell.cpp</in>
+        <in>Collection.cpp</in>
+        <in>ColorHistogram.cpp</in>
+        <in>Component.cpp</in>
+        <in>CompoundLocalBinaryPattern.cpp</in>
+        <in>Face.cpp</in>
+        <in>GaborFilter.cpp</in>
+        <in>HistogramOrientedGradient.cpp</in>
+        <in>ImageSet.cpp</in>
+        <in>Label.cpp</in>
+        <in>LocalBinaryPattern.cpp</in>
+        <in>Matrix.cpp</in>
+        <in>MeanIntensity.cpp</in>
+        <in>PLSclassifier.cpp</in>
+        <in>PLSregression.cpp</in>
+        <in>PatternOrientedEdgeMagnitude.cpp</in>
+        <in>SlideWindow.cpp</in>
+        <in>UStandardDeviation.cpp</in>
+        <in>Useful.cpp</in>
+        <in>ZeroMean.cpp</in>
+        <in>ZeroScore.cpp</in>
+        <in>main.cpp</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>CMakeLists.txt</itemPath>
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-std=c++11 -O3"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>CompetitionNB.app</executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand>${CMAKE} -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=${IDE_CC} -DCMAKE_CXX_COMPILER=${IDE_CXX} -DCMAKE_C_FLAGS_DEBUG="-g3 -gdwarf-2" -DCMAKE_CXX_FLAGS_DEBUG="-g3 -gdwarf-2" -DCMAKE_EXPORT_COMPILE_COMMANDS=ON .</preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <folder path="0/src/dlib/base64">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>dlib_build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DLIB_JPEG_SUPPORT</Elem>
+            <Elem>DLIB_PNG_SUPPORT</Elem>
+            <Elem>DLIB_USE_BLAS</Elem>
+            <Elem>DLIB_USE_LAPACK</Elem>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/dlib/bigint">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>dlib_build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DLIB_JPEG_SUPPORT</Elem>
+            <Elem>DLIB_PNG_SUPPORT</Elem>
+            <Elem>DLIB_USE_BLAS</Elem>
+            <Elem>DLIB_USE_LAPACK</Elem>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/dlib/bit_stream">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>dlib_build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DLIB_JPEG_SUPPORT</Elem>
+            <Elem>DLIB_PNG_SUPPORT</Elem>
+            <Elem>DLIB_USE_BLAS</Elem>
+            <Elem>DLIB_USE_LAPACK</Elem>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/dlib/bsp">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>dlib_build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DLIB_JPEG_SUPPORT</Elem>
+            <Elem>DLIB_PNG_SUPPORT</Elem>
+            <Elem>DLIB_USE_BLAS</Elem>
+            <Elem>DLIB_USE_LAPACK</Elem>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/dlib/data_io">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>dlib_build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DLIB_JPEG_SUPPORT</Elem>
+            <Elem>DLIB_PNG_SUPPORT</Elem>
+            <Elem>DLIB_USE_BLAS</Elem>
+            <Elem>DLIB_USE_LAPACK</Elem>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/dlib/dir_nav">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>dlib_build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DLIB_JPEG_SUPPORT</Elem>
+            <Elem>DLIB_PNG_SUPPORT</Elem>
+            <Elem>DLIB_USE_BLAS</Elem>
+            <Elem>DLIB_USE_LAPACK</Elem>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/dlib/entropy_decoder">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>dlib_build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DLIB_JPEG_SUPPORT</Elem>
+            <Elem>DLIB_PNG_SUPPORT</Elem>
+            <Elem>DLIB_USE_BLAS</Elem>
+            <Elem>DLIB_USE_LAPACK</Elem>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/dlib/entropy_encoder">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>dlib_build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DLIB_JPEG_SUPPORT</Elem>
+            <Elem>DLIB_PNG_SUPPORT</Elem>
+            <Elem>DLIB_USE_BLAS</Elem>
+            <Elem>DLIB_USE_LAPACK</Elem>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/dlib/gui_core">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>dlib_build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DLIB_JPEG_SUPPORT</Elem>
+            <Elem>DLIB_PNG_SUPPORT</Elem>
+            <Elem>DLIB_USE_BLAS</Elem>
+            <Elem>DLIB_USE_LAPACK</Elem>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/dlib/gui_widgets">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>dlib_build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DLIB_JPEG_SUPPORT</Elem>
+            <Elem>DLIB_PNG_SUPPORT</Elem>
+            <Elem>DLIB_USE_BLAS</Elem>
+            <Elem>DLIB_USE_LAPACK</Elem>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/dlib/image_loader">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>dlib_build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DLIB_JPEG_SUPPORT</Elem>
+            <Elem>DLIB_PNG_SUPPORT</Elem>
+            <Elem>DLIB_USE_BLAS</Elem>
+            <Elem>DLIB_USE_LAPACK</Elem>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/dlib/image_saver">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>dlib_build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DLIB_JPEG_SUPPORT</Elem>
+            <Elem>DLIB_PNG_SUPPORT</Elem>
+            <Elem>DLIB_USE_BLAS</Elem>
+            <Elem>DLIB_USE_LAPACK</Elem>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/dlib/linker">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>dlib_build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DLIB_JPEG_SUPPORT</Elem>
+            <Elem>DLIB_PNG_SUPPORT</Elem>
+            <Elem>DLIB_USE_BLAS</Elem>
+            <Elem>DLIB_USE_LAPACK</Elem>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/dlib/logger">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>dlib_build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DLIB_JPEG_SUPPORT</Elem>
+            <Elem>DLIB_PNG_SUPPORT</Elem>
+            <Elem>DLIB_USE_BLAS</Elem>
+            <Elem>DLIB_USE_LAPACK</Elem>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/dlib/md5">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>dlib_build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DLIB_JPEG_SUPPORT</Elem>
+            <Elem>DLIB_PNG_SUPPORT</Elem>
+            <Elem>DLIB_USE_BLAS</Elem>
+            <Elem>DLIB_USE_LAPACK</Elem>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/dlib/misc_api">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>dlib_build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DLIB_JPEG_SUPPORT</Elem>
+            <Elem>DLIB_PNG_SUPPORT</Elem>
+            <Elem>DLIB_USE_BLAS</Elem>
+            <Elem>DLIB_USE_LAPACK</Elem>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/dlib/server">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>dlib_build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DLIB_JPEG_SUPPORT</Elem>
+            <Elem>DLIB_PNG_SUPPORT</Elem>
+            <Elem>DLIB_USE_BLAS</Elem>
+            <Elem>DLIB_USE_LAPACK</Elem>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/dlib/sockets">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>dlib_build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DLIB_JPEG_SUPPORT</Elem>
+            <Elem>DLIB_PNG_SUPPORT</Elem>
+            <Elem>DLIB_USE_BLAS</Elem>
+            <Elem>DLIB_USE_LAPACK</Elem>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/dlib/sockstreambuf">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>dlib_build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DLIB_JPEG_SUPPORT</Elem>
+            <Elem>DLIB_PNG_SUPPORT</Elem>
+            <Elem>DLIB_USE_BLAS</Elem>
+            <Elem>DLIB_USE_LAPACK</Elem>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/dlib/threads">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>dlib_build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DLIB_JPEG_SUPPORT</Elem>
+            <Elem>DLIB_PNG_SUPPORT</Elem>
+            <Elem>DLIB_USE_BLAS</Elem>
+            <Elem>DLIB_USE_LAPACK</Elem>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/dlib/timer">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>dlib_build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DLIB_JPEG_SUPPORT</Elem>
+            <Elem>DLIB_PNG_SUPPORT</Elem>
+            <Elem>DLIB_USE_BLAS</Elem>
+            <Elem>DLIB_USE_LAPACK</Elem>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/dlib/tokenizer">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>dlib_build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DLIB_JPEG_SUPPORT</Elem>
+            <Elem>DLIB_PNG_SUPPORT</Elem>
+            <Elem>DLIB_USE_BLAS</Elem>
+            <Elem>DLIB_USE_LAPACK</Elem>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/dlib/unicode">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>dlib_build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DLIB_JPEG_SUPPORT</Elem>
+            <Elem>DLIB_PNG_SUPPORT</Elem>
+            <Elem>DLIB_USE_BLAS</Elem>
+            <Elem>DLIB_USE_LAPACK</Elem>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <item path="src/Annotation.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/Cell.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/Collection.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/ColorHistogram.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/Component.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/CompoundLocalBinaryPattern.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/Face.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/GaborFilter.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/HistogramOrientedGradient.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/ImageSet.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/Label.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/LocalBinaryPattern.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/Matrix.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/MeanIntensity.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/PLSclassifier.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/PLSregression.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/PatternOrientedEdgeMagnitude.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/SlideWindow.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/UStandardDeviation.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/Useful.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/ZeroMean.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/ZeroScore.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/bin/extractFeatures.m" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/bin/features.m" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/dlib/all/source.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/all_console.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/all_gui.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/base64/base64_kernel_1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/bigint/bigint_kernel_1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/bigint/bigint_kernel_2.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/bit_stream/bit_stream_kernel_1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/bsp/bsp.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="src/dlib/build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/build/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="src/dlib/data_io/image_dataset_metadata.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/dir_nav/dir_nav_extensions.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/dir_nav/dir_nav_kernel_1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/dir_nav/dir_nav_kernel_2.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/external/libjpeg/jcapimin.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jcapistd.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jccoefct.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jccolor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jcdctmgr.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jchuff.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jcinit.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jcmainct.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jcmarker.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jcmaster.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jcomapi.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jcparam.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jcphuff.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jcprepct.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jcsample.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jdapimin.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jdapistd.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jdatadst.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jdatasrc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jdcoefct.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jdcolor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jddctmgr.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jdhuff.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jdinput.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jdmainct.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jdmarker.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jdmaster.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jdmerge.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jdphuff.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jdpostct.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jdsample.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jerror.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jfdctflt.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jfdctfst.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jfdctint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jidctflt.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jidctfst.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jidctint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jidctred.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jmemmgr.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jmemnobs.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jquant1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jquant2.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libjpeg/jutils.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/external/libpng/png.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/dlib/external/libpng/pngerror.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="src/dlib/external/libpng/pngget.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/dlib/external/libpng/pngmem.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/dlib/external/libpng/pngpread.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="src/dlib/external/libpng/pngread.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/dlib/external/libpng/pngrio.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/dlib/external/libpng/pngrtran.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="src/dlib/external/libpng/pngrutil.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="src/dlib/external/libpng/pngset.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/dlib/external/libpng/pngtrans.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="src/dlib/external/libpng/pngwio.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/dlib/external/libpng/pngwrite.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="src/dlib/external/libpng/pngwtran.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="src/dlib/external/libpng/pngwutil.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="src/dlib/external/zlib/adler32.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/dlib/external/zlib/compress.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/dlib/external/zlib/crc32.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/dlib/external/zlib/deflate.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/dlib/external/zlib/gzclose.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/dlib/external/zlib/gzlib.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/dlib/external/zlib/gzread.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/dlib/external/zlib/gzwrite.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/dlib/external/zlib/infback.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/dlib/external/zlib/inffast.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/dlib/external/zlib/inflate.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/dlib/external/zlib/inftrees.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/dlib/external/zlib/trees.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/dlib/external/zlib/uncompr.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/dlib/external/zlib/zutil.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/dlib/gui_core/gui_core_kernel_1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/gui_core/gui_core_kernel_2.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/gui_widgets/base_widgets.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/gui_widgets/canvas_drawing.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/gui_widgets/drawable.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/gui_widgets/fonts.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/gui_widgets/style.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/gui_widgets/widgets.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/http_client/http_client.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/image_loader/jpeg_loader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/image_loader/png_loader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/image_saver/save_jpeg.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/image_saver/save_png.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/linker/linker_kernel_1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/logger/extra_logger_headers.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/logger/logger_config_file.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/logger/logger_kernel_1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/matlab/example.m" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/dlib/matlab/example_mex_callback.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/matlab/example_mex_function.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/matlab/mex_wrapper.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/md5/md5_kernel_1.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/misc_api/misc_api_kernel_1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/misc_api/misc_api_kernel_2.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/server/server_http.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/server/server_iostream.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/server/server_kernel.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/sockets/sockets_extensions.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/sockets/sockets_kernel_1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/sockets/sockets_kernel_2.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/sockstreambuf/sockstreambuf.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/stack_trace.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>dlib_build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DLIB_JPEG_SUPPORT</Elem>
+            <Elem>DLIB_PNG_SUPPORT</Elem>
+            <Elem>DLIB_USE_BLAS</Elem>
+            <Elem>DLIB_USE_LAPACK</Elem>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/dlib/test/active_learning.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/any.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/any_function.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/array.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/array2d.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/assignment_learning.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/base64.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/bayes_nets.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/bigint.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/binary_search_tree_kernel_1a.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/binary_search_tree_kernel_2a.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/binary_search_tree_mm1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/binary_search_tree_mm2.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/blas_bindings/blas_bindings_dot.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/blas_bindings/blas_bindings_gemm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/blas_bindings/blas_bindings_gemv.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/blas_bindings/blas_bindings_ger.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/blas_bindings/blas_bindings_scal_axpy.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/blas_bindings/vector.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/bridge.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/bsp.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/byte_orderer.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/cca.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/clustering.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/cmd_line_parser.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/cmd_line_parser_wchar_t.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/compress_stream.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/conditioning_class.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/conditioning_class_c.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/config_reader.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/crc32.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/create_iris_datafile.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/data_io.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/directed_graph.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/discriminant_pca.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/disjoint_subsets.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/ekm_and_lisf.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/empirical_kernel_map.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/entropy_coder.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/entropy_encoder_model.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/example.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/example_args.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/face.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/fft.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/fhog.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/filtering.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/find_max_factor_graph_nmplp.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/find_max_factor_graph_viterbi.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/geometry.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/graph.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/graph_cuts.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/graph_labeler.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/gui/main.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/hash.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/hash_map.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/hash_set.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/hash_table.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/hog_image.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/image.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/iosockstream.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/is_same_object.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/kcentroid.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/kernel_matrix.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/kmeans.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/learning_to_track.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/least_squares.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/linear_manifold_regularizer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/lspi.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/lz77_buffer.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/main.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/map.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/matrix.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/matrix2.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/matrix3.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/matrix4.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/matrix_chol.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/matrix_eig.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/matrix_lu.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/matrix_qr.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/max_cost_assignment.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/max_sum_submatrix.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/md5.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/member_function_pointer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/metaprogramming.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/mpc.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/multithreaded_object.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/numerical_integration.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/object_detector.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/oca.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/one_vs_all_trainer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/one_vs_one_trainer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/opt_qp_solver.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/optimization.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/optimization_test_functions.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/parallel_for.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/parse.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/pipe.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/pixel.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/probabilistic.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/pyramid_down.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/queue.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/rand.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/ranking.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/read_write_mutex.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/reference_counter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/rls.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/sammon.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/scan_image.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/sequence.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/sequence_labeler.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/sequence_segmenter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/serialize.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/set.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/sldf.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/sliding_buffer.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/smart_pointers.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/sockets.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/sockets2.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/sockstreambuf.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/sparse_vector.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/stack.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/static_map.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/static_set.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/statistics.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/std_vector_c.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/string.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/svm.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/svm_c_linear.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/svm_c_linear_dcd.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/svm_multiclass_linear.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/svm_struct.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/svr_linear_trainer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/symmetric_matrix_cache.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/dlib/test/tester.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/thread_pool.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/threads.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/timer.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/tokenizer.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/trust_region.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/tuple.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/type_safe_union.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/test/vectorstream.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/dlib/threads/multithreaded_object_extension.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/threads/thread_pool_extension.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/threads/threaded_object_extension.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/threads/threads_kernel_1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/threads/threads_kernel_2.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/threads/threads_kernel_shared.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/timer/timer.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/tokenizer/tokenizer_kernel_1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/dlib/unicode/unicode.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>src</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
