@@ -66,13 +66,13 @@ int main(int argc, const char * argv[]) {
         ofstream outfile;
         outfile.open("features_" + note.substr(note.find_last_of("/") + 1));
         for (unsigned int outer = 0; outer < gallerySamples.rows; outer++) {
-            const double* doubleSamples = gallerySamples.ptr<double>(outer);
-            
+            const double* doubleSamples = gallerySamples.ptr<double>(outer);            
             for (unsigned int inner = 0; inner < gallerySamples.cols; inner++) {
-                //cout << gallerySamples.row(outer).col(inner) << " ";
-                outfile << doubleSamples[inner] << " ";
+                //outfile << doubleSamples[inner] << " ";
+                outfile << *gallerySamples.row(outer).col(inner)[0] << " ";
             }
             outfile << endl;
+            
         }
         outfile.close();
 
