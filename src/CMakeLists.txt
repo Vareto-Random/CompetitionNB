@@ -1,0 +1,46 @@
+#
+# This is a CMake makefile.  You can find the cmake utility and
+# information about it at http://www.cmake.org
+#
+cmake_minimum_required(VERSION 2.8.4)
+
+PROJECT(Executable.app)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+#set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -Wall")
+
+find_package(OpenCV REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+include(dlib/cmake)
+
+# Tell CMake to compile a program.  We do this with the ADD_EXECUTABLE()
+# statement which takes the name of the output executable and then a list of
+# .cpp files to compile.
+ADD_EXECUTABLE(
+Executable.app
+Annotation.cpp
+Cell.cpp
+Collection.cpp
+ColorHistogram.cpp
+Component.cpp
+CompoundLocalBinaryPattern.cpp
+Face.cpp
+GaborFilter.cpp
+HistogramOrientedGradient.cpp
+ImageSet.cpp
+Label.cpp
+LocalBinaryPattern.cpp
+Matrix.cpp
+MeanIntensity.cpp
+PatternOrientedEdgeMagnitude.cpp
+PLSclassifier.cpp
+PLSregression.cpp
+SlideWindow.cpp
+Useful.cpp
+UStandardDeviation.cpp
+ZeroMean.cpp
+ZeroScore.cpp
+main.cpp
+)
+
+# Then we tell it to link with dlib.
+TARGET_LINK_LIBRARIES(Executable.app ${OpenCV_LIBS} dlib)
