@@ -21,6 +21,9 @@
           </df>
           <in>link.txt</in>
         </df>
+        <df name="Progress">
+          <in>count.txt</in>
+        </df>
         <in>TargetDirectories.txt</in>
       </df>
       <df name="dataset">

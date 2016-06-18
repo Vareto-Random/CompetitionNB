@@ -13,6 +13,12 @@ find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 include(src/dlib/cmake)
 
+find_package(OpenMP)
+if (OPENMP_FOUND)
+    set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${OpenMP_C_FLAGS}")
+    set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${OpenMP_CXX_FLAGS}")
+endif()
+
 # Tell CMake to compile a program.  We do this with the ADD_EXECUTABLE()
 # statement which takes the name of the output executable and then a list of
 # .cpp files to compile.
