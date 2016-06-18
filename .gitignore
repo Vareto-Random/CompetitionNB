@@ -1,3 +1,23 @@
+# Cmake files
+*.bin
+*.cmake
+*.cproject
+*.check_cache
+*.dir
+*.log
+*.project
+*.marks
+
+# Images
+*.jpg
+*.jpeg
+*.png
+
+# Output files
+*.txt
+*.csv
+*.mat
+
 # Compiled Object files
 *.slo
 *.lo
