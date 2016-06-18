@@ -69,9 +69,9 @@ bool Collection::fetchCells(bool _show) {
     assert(this->imageArray.size() == this->cellArray.size());
     
     vector<Descriptor *> descriptors;
-    //descriptors.push_back(new CompoundLocalBinaryPattern(12, cv::Size(50,50), cv::Size(24,24)));
+    descriptors.push_back(new CompoundLocalBinaryPattern(12, cv::Size(50,50), cv::Size(24,24)));
     //descriptors.push_back(new HistogramOrientedGradient);
-    descriptors.push_back(new PatternOrientedEdgeMagnitude);
+    //*descriptors.push_back(new PatternOrientedEdgeMagnitude);
     //descriptors.push_back(new LocalBinaryPattern(cv::Size(36,30), cv::Size(24,20)));
     //descriptors.push_back(new PatternOrientedEdgeMagnitude(3, 7, cv::Size(8,8), cv::Size(32,32), cv::Size(16,16)));
     
@@ -91,6 +91,7 @@ bool Collection::fetchCells(bool _show) {
                 (*cell).setBlockHeight(2 * descriptors[inner]->getBlockSize().second);
                 cv::Mat patch(*image, cv::Rect(cell->getX0(), cell->getY0(), cell->getBlockWidth(), cell->getBlockHeight()));
                 cell->setFeature(patch, (*descriptors[inner]));
+//                cout << outer << ":" << inner << endl;
             }
             
             if (_show) {
@@ -247,9 +248,9 @@ bool Collection::fetchComponents(bool _show) {
 
 bool Collection::fetchFaces(bool _show) {
     vector<Descriptor *> descriptors;
-    //descriptors.push_back(new CompoundLocalBinaryPattern);
+    descriptors.push_back(new CompoundLocalBinaryPattern);
     //descriptors.push_back(new HistogramOrientedGradient);
-    descriptors.push_back(new LocalBinaryPattern);
+    //*descriptors.push_back(new LocalBinaryPattern);
     //descriptors.push_back(new PatternOrientedEdgeMagnitude);
     //descriptors.push_back(new CompoundLocalBinaryPattern(12, cv::Size(50,50), cv::Size(24,24)));
     //descriptors.push_back(new LocalBinaryPattern(cv::Size(36,30), cv::Size(24,20)));
@@ -347,9 +348,9 @@ bool Collection::getAllFeatures(Matrix &_samples, Labels &_labels, const bool _e
     map<string, vector<Cell> >::iterator itCell;
     map<string, vector<Component> >::iterator itComp;
     map<string, Face>::iterator itFace;
-    for (itCell = this->cellArray.begin(), itComp = this->componentArray.begin(), itFace = this->faceArray.begin();
-         itCell != this->cellArray.end() or itComp != this->componentArray.end() or itFace != this->faceArray.end();
-         itCell++, itComp++, itFace++) {
+    for (itCell = this->cellArray.begin(), itComp = this->componentArray.begin()/*, itFace = this->faceArray.begin()*/;
+         itCell != this->cellArray.end() or itComp != this->componentArray.end() /*or itFace != this->faceArray.end()*/;
+         itCell++, itComp++/*, itFace++*/) {
         
         cv::Mat sample;
         _labels[count].setId(itCell->first.substr(0,3));
@@ -376,7 +377,6 @@ bool Collection::getAllFeatures(Matrix &_samples, Labels &_labels, const bool _e
         if (this->componentStatus) {
             assert(this->imageArray.size() == this->componentArray.size());
             compare.push_back(itComp->first);
-            
             // Loop at all components
             for (int outer = 0; outer < itComp->second.size(); outer++) {
                 Component *component = &(itComp->second[outer]);

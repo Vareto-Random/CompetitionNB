@@ -19,9 +19,7 @@
         <df name="CompetitionNB.app.dir">
           <df name="src">
           </df>
-          <in>link.txt</in>
         </df>
-        <in>TargetDirectories.txt</in>
       </df>
       <df name="dataset">
         <df name="icbrw_EvaluationImages">
@@ -30,9 +28,6 @@
         </df>
         <df name="icbrw_ProbeImages">
         </df>
-        <in>annotations_EvaluationImages.txt</in>
-        <in>annotations_GalleryImages.txt</in>
-        <in>annotations_ProbeImages.txt</in>
       </df>
       <df name="dlib_build">
         <df name="CMakeFiles">
@@ -103,94 +98,39 @@
       </df>
       <df name="src">
         <df name="bin">
-          <in>error.txt</in>
           <in>extractFeatures.m</in>
           <in>features.m</in>
-          <in>features_annotations_EvaluationImages.txt</in>
-          <in>features_annotations_EvaluationImages15.txt</in>
-          <in>features_annotations_GalleryImages.txt</in>
-          <in>features_annotations_GalleryImages15.txt</in>
-          <in>features_annotations_ProbeImages.txt</in>
-          <in>features_annotations_ProbeImages15.txt</in>
-          <in>labels_annotations_EvaluationImages.txt</in>
-          <in>labels_annotations_EvaluationImages15.txt</in>
-          <in>labels_annotations_GalleryImages.txt</in>
-          <in>labels_annotations_GalleryImages15.txt</in>
-          <in>labels_annotations_ProbeImages.txt</in>
-          <in>labels_annotations_ProbeImages15.txt</in>
         </df>
         <df name="dlib">
           <df name="all">
             <in>source.cpp</in>
           </df>
           <df name="any">
-            <in>any.h</in>
-            <in>any_abstract.h</in>
-            <in>any_decision_function.h</in>
-            <in>any_decision_function_abstract.h</in>
-            <in>any_function.h</in>
-            <in>any_function_abstract.h</in>
-            <in>any_function_impl.h</in>
-            <in>any_function_impl2.h</in>
-            <in>any_trainer.h</in>
-            <in>any_trainer_abstract.h</in>
           </df>
           <df name="array">
-            <in>array_kernel.h</in>
-            <in>array_kernel_abstract.h</in>
-            <in>array_tools.h</in>
-            <in>array_tools_abstract.h</in>
           </df>
           <df name="array2d">
-            <in>array2d_generic_image.h</in>
-            <in>array2d_kernel.h</in>
-            <in>array2d_kernel_abstract.h</in>
-            <in>serialize_pixel_overloads.h</in>
           </df>
           <df name="base64">
             <in>base64_kernel_1.cpp</in>
-            <in>base64_kernel_1.h</in>
-            <in>base64_kernel_abstract.h</in>
           </df>
           <df name="bayes_utils">
-            <in>bayes_utils.h</in>
-            <in>bayes_utils_abstract.h</in>
           </df>
           <df name="bigint">
             <in>bigint_kernel_1.cpp</in>
-            <in>bigint_kernel_1.h</in>
             <in>bigint_kernel_2.cpp</in>
-            <in>bigint_kernel_2.h</in>
-            <in>bigint_kernel_abstract.h</in>
-            <in>bigint_kernel_c.h</in>
           </df>
           <df name="binary_search_tree">
-            <in>binary_search_tree_kernel_1.h</in>
-            <in>binary_search_tree_kernel_2.h</in>
-            <in>binary_search_tree_kernel_abstract.h</in>
-            <in>binary_search_tree_kernel_c.h</in>
           </df>
           <df name="bit_stream">
             <in>bit_stream_kernel_1.cpp</in>
-            <in>bit_stream_kernel_1.h</in>
-            <in>bit_stream_kernel_abstract.h</in>
-            <in>bit_stream_kernel_c.h</in>
-            <in>bit_stream_multi_1.h</in>
-            <in>bit_stream_multi_abstract.h</in>
-            <in>bit_stream_multi_c.h</in>
           </df>
           <df name="bound_function_pointer">
-            <in>bound_function_pointer_kernel_1.h</in>
-            <in>bound_function_pointer_kernel_abstract.h</in>
           </df>
           <df name="bridge">
-            <in>bridge.h</in>
-            <in>bridge_abstract.h</in>
           </df>
           <df name="bsp">
             <in>bsp.cpp</in>
-            <in>bsp.h</in>
-            <in>bsp_abstract.h</in>
           </df>
           <df name="build">
             <df name="CMakeFiles">
@@ -254,140 +194,52 @@
                 </df>
                 <df name="unicode">
                 </df>
-                <in>link.txt</in>
               </df>
-              <in>TargetDirectories.txt</in>
             </df>
-            <in>CMakeCache.txt</in>
           </df>
           <df name="byte_orderer">
-            <in>byte_orderer_kernel_1.h</in>
-            <in>byte_orderer_kernel_abstract.h</in>
           </df>
           <df name="clustering">
-            <in>bottom_up_cluster.h</in>
-            <in>bottom_up_cluster_abstract.h</in>
-            <in>chinese_whispers.h</in>
-            <in>chinese_whispers_abstract.h</in>
-            <in>modularity_clustering.h</in>
-            <in>modularity_clustering_abstract.h</in>
-            <in>spectral_cluster.h</in>
-            <in>spectral_cluster_abstract.h</in>
           </df>
           <df name="cmd_line_parser">
-            <in>cmd_line_parser_check_1.h</in>
-            <in>cmd_line_parser_check_c.h</in>
-            <in>cmd_line_parser_kernel_1.h</in>
-            <in>cmd_line_parser_kernel_abstract.h</in>
-            <in>cmd_line_parser_kernel_c.h</in>
-            <in>cmd_line_parser_print_1.h</in>
-            <in>get_option.h</in>
-            <in>get_option_abstract.h</in>
           </df>
           <df name="compress_stream">
-            <in>compress_stream_kernel_1.h</in>
-            <in>compress_stream_kernel_2.h</in>
-            <in>compress_stream_kernel_3.h</in>
-            <in>compress_stream_kernel_abstract.h</in>
           </df>
           <df name="conditioning_class">
-            <in>conditioning_class_kernel_1.h</in>
-            <in>conditioning_class_kernel_2.h</in>
-            <in>conditioning_class_kernel_3.h</in>
-            <in>conditioning_class_kernel_4.h</in>
-            <in>conditioning_class_kernel_abstract.h</in>
-            <in>conditioning_class_kernel_c.h</in>
           </df>
           <df name="config_reader">
-            <in>config_reader_kernel_1.h</in>
-            <in>config_reader_kernel_abstract.h</in>
-            <in>config_reader_thread_safe_1.h</in>
-            <in>config_reader_thread_safe_abstract.h</in>
           </df>
           <df name="control">
-            <in>approximate_linear_models.h</in>
-            <in>approximate_linear_models_abstract.h</in>
-            <in>lspi.h</in>
-            <in>lspi_abstract.h</in>
-            <in>mpc.h</in>
-            <in>mpc_abstract.h</in>
           </df>
           <df name="cpp_pretty_printer">
-            <in>cpp_pretty_printer_kernel_1.h</in>
-            <in>cpp_pretty_printer_kernel_2.h</in>
-            <in>cpp_pretty_printer_kernel_abstract.h</in>
           </df>
           <df name="cpp_tokenizer">
-            <in>cpp_tokenizer_kernel_1.h</in>
-            <in>cpp_tokenizer_kernel_abstract.h</in>
-            <in>cpp_tokenizer_kernel_c.h</in>
           </df>
           <df name="crc32">
-            <in>crc32_kernel_1.h</in>
-            <in>crc32_kernel_abstract.h</in>
           </df>
           <df name="data_io">
             <in>image_dataset_metadata.cpp</in>
-            <in>image_dataset_metadata.h</in>
-            <in>libsvm_io.h</in>
-            <in>libsvm_io_abstract.h</in>
-            <in>load_image_dataset.h</in>
-            <in>load_image_dataset_abstract.h</in>
           </df>
           <df name="dir_nav">
             <in>dir_nav_extensions.cpp</in>
-            <in>dir_nav_extensions.h</in>
-            <in>dir_nav_extensions_abstract.h</in>
             <in>dir_nav_kernel_1.cpp</in>
-            <in>dir_nav_kernel_1.h</in>
             <in>dir_nav_kernel_2.cpp</in>
-            <in>dir_nav_kernel_2.h</in>
-            <in>dir_nav_kernel_abstract.h</in>
-            <in>posix.h</in>
-            <in>windows.h</in>
           </df>
           <df name="directed_graph">
-            <in>directed_graph_kernel_1.h</in>
-            <in>directed_graph_kernel_abstract.h</in>
           </df>
           <df name="disjoint_subsets">
-            <in>disjoint_subsets.h</in>
-            <in>disjoint_subsets_abstract.h</in>
           </df>
           <df name="entropy_decoder">
             <in>entropy_decoder_kernel_1.cpp</in>
-            <in>entropy_decoder_kernel_1.h</in>
             <in>entropy_decoder_kernel_2.cpp</in>
-            <in>entropy_decoder_kernel_2.h</in>
-            <in>entropy_decoder_kernel_abstract.h</in>
-            <in>entropy_decoder_kernel_c.h</in>
           </df>
           <df name="entropy_decoder_model">
-            <in>entropy_decoder_model_kernel_1.h</in>
-            <in>entropy_decoder_model_kernel_2.h</in>
-            <in>entropy_decoder_model_kernel_3.h</in>
-            <in>entropy_decoder_model_kernel_4.h</in>
-            <in>entropy_decoder_model_kernel_5.h</in>
-            <in>entropy_decoder_model_kernel_6.h</in>
-            <in>entropy_decoder_model_kernel_abstract.h</in>
           </df>
           <df name="entropy_encoder">
             <in>entropy_encoder_kernel_1.cpp</in>
-            <in>entropy_encoder_kernel_1.h</in>
             <in>entropy_encoder_kernel_2.cpp</in>
-            <in>entropy_encoder_kernel_2.h</in>
-            <in>entropy_encoder_kernel_abstract.h</in>
-            <in>entropy_encoder_kernel_c.h</in>
           </df>
           <df name="entropy_encoder_model">
-            <in>entropy_encoder_model_kernel_1.h</in>
-            <in>entropy_encoder_model_kernel_2.h</in>
-            <in>entropy_encoder_model_kernel_3.h</in>
-            <in>entropy_encoder_model_kernel_4.h</in>
-            <in>entropy_encoder_model_kernel_5.h</in>
-            <in>entropy_encoder_model_kernel_6.h</in>
-            <in>entropy_encoder_model_kernel_abstract.h</in>
-            <in>entropy_encoder_model_kernel_c.h</in>
           </df>
           <df name="external">
             <df name="libjpeg">
@@ -397,13 +249,11 @@
               <in>jccolor.cpp</in>
               <in>jcdctmgr.cpp</in>
               <in>jchuff.cpp</in>
-              <in>jchuff.h</in>
               <in>jcinit.cpp</in>
               <in>jcmainct.cpp</in>
               <in>jcmarker.cpp</in>
               <in>jcmaster.cpp</in>
               <in>jcomapi.cpp</in>
-              <in>jconfig.h</in>
               <in>jcparam.cpp</in>
               <in>jcphuff.cpp</in>
               <in>jcprepct.cpp</in>
@@ -414,10 +264,8 @@
               <in>jdatasrc.cpp</in>
               <in>jdcoefct.cpp</in>
               <in>jdcolor.cpp</in>
-              <in>jdct.h</in>
               <in>jddctmgr.cpp</in>
               <in>jdhuff.cpp</in>
-              <in>jdhuff.h</in>
               <in>jdinput.cpp</in>
               <in>jdmainct.cpp</in>
               <in>jdmarker.cpp</in>
@@ -427,7 +275,6 @@
               <in>jdpostct.cpp</in>
               <in>jdsample.cpp</in>
               <in>jerror.cpp</in>
-              <in>jerror.h</in>
               <in>jfdctflt.cpp</in>
               <in>jfdctfst.cpp</in>
               <in>jfdctint.cpp</in>
@@ -435,36 +282,23 @@
               <in>jidctfst.cpp</in>
               <in>jidctint.cpp</in>
               <in>jidctred.cpp</in>
-              <in>jinclude.h</in>
               <in>jmemmgr.cpp</in>
               <in>jmemnobs.cpp</in>
-              <in>jmemsys.h</in>
-              <in>jmorecfg.h</in>
-              <in>jpegint.h</in>
-              <in>jpeglib.h</in>
               <in>jquant1.cpp</in>
               <in>jquant2.cpp</in>
               <in>jutils.cpp</in>
-              <in>jversion.h</in>
             </df>
             <df name="libpng">
               <in>png.c</in>
-              <in>png.h</in>
-              <in>pngconf.h</in>
-              <in>pngdebug.h</in>
               <in>pngerror.c</in>
               <in>pngget.c</in>
-              <in>pnginfo.h</in>
-              <in>pnglibconf.h</in>
               <in>pngmem.c</in>
               <in>pngpread.c</in>
-              <in>pngpriv.h</in>
               <in>pngread.c</in>
               <in>pngrio.c</in>
               <in>pngrtran.c</in>
               <in>pngrutil.c</in>
               <in>pngset.c</in>
-              <in>pngstruct.h</in>
               <in>pngtrans.c</in>
               <in>pngwio.c</in>
               <in>pngwrite.c</in>
@@ -475,309 +309,90 @@
               <in>adler32.c</in>
               <in>compress.c</in>
               <in>crc32.c</in>
-              <in>crc32.h</in>
               <in>deflate.c</in>
-              <in>deflate.h</in>
               <in>gzclose.c</in>
-              <in>gzguts.h</in>
               <in>gzlib.c</in>
               <in>gzread.c</in>
               <in>gzwrite.c</in>
               <in>infback.c</in>
               <in>inffast.c</in>
-              <in>inffast.h</in>
-              <in>inffixed.h</in>
               <in>inflate.c</in>
-              <in>inflate.h</in>
               <in>inftrees.c</in>
-              <in>inftrees.h</in>
               <in>trees.c</in>
-              <in>trees.h</in>
               <in>uncompr.c</in>
-              <in>zconf.h</in>
-              <in>zlib.h</in>
               <in>zutil.c</in>
-              <in>zutil.h</in>
             </df>
           </df>
           <df name="filtering">
-            <in>kalman_filter.h</in>
-            <in>kalman_filter_abstract.h</in>
-            <in>rls_filter.h</in>
-            <in>rls_filter_abstract.h</in>
           </df>
           <df name="general_hash">
-            <in>count_bits.h</in>
-            <in>count_bits_abstract.h</in>
-            <in>general_hash.h</in>
-            <in>hash.h</in>
-            <in>hash_abstract.h</in>
-            <in>murmur_hash3.h</in>
-            <in>murmur_hash3_abstract.h</in>
-            <in>random_hashing.h</in>
-            <in>random_hashing_abstract.h</in>
           </df>
           <df name="geometry">
-            <in>border_enumerator.h</in>
-            <in>border_enumerator_abstract.h</in>
-            <in>drectangle.h</in>
-            <in>drectangle_abstract.h</in>
-            <in>point_transforms.h</in>
-            <in>point_transforms_abstract.h</in>
-            <in>rectangle.h</in>
-            <in>rectangle_abstract.h</in>
-            <in>vector.h</in>
-            <in>vector_abstract.h</in>
           </df>
           <df name="graph">
-            <in>graph_kernel_1.h</in>
-            <in>graph_kernel_abstract.h</in>
           </df>
           <df name="graph_cuts">
-            <in>find_max_factor_graph_potts.h</in>
-            <in>find_max_factor_graph_potts_abstract.h</in>
-            <in>general_flow_graph.h</in>
-            <in>general_potts_problem.h</in>
-            <in>graph_labeler.h</in>
-            <in>graph_labeler_abstract.h</in>
-            <in>min_cut.h</in>
-            <in>min_cut_abstract.h</in>
           </df>
           <df name="graph_utils">
-            <in>edge_list_graphs.h</in>
-            <in>edge_list_graphs_abstract.h</in>
-            <in>find_k_nearest_neighbors_lsh.h</in>
-            <in>find_k_nearest_neighbors_lsh_abstract.h</in>
-            <in>function_objects.h</in>
-            <in>function_objects_abstract.h</in>
-            <in>graph_utils.h</in>
-            <in>graph_utils_abstract.h</in>
-            <in>ordered_sample_pair.h</in>
-            <in>ordered_sample_pair_abstract.h</in>
-            <in>sample_pair.h</in>
-            <in>sample_pair_abstract.h</in>
           </df>
           <df name="gui_core">
             <in>gui_core_kernel_1.cpp</in>
-            <in>gui_core_kernel_1.h</in>
             <in>gui_core_kernel_2.cpp</in>
-            <in>gui_core_kernel_2.h</in>
-            <in>gui_core_kernel_abstract.h</in>
-            <in>windows.h</in>
-            <in>xlib.h</in>
           </df>
           <df name="gui_widgets">
             <in>base_widgets.cpp</in>
-            <in>base_widgets.h</in>
-            <in>base_widgets_abstract.h</in>
             <in>canvas_drawing.cpp</in>
-            <in>canvas_drawing.h</in>
-            <in>canvas_drawing_abstract.h</in>
             <in>drawable.cpp</in>
-            <in>drawable.h</in>
-            <in>drawable_abstract.h</in>
             <in>fonts.cpp</in>
-            <in>fonts.h</in>
-            <in>fonts_abstract.h</in>
-            <in>nativefont.h</in>
             <in>style.cpp</in>
-            <in>style.h</in>
-            <in>style_abstract.h</in>
             <in>widgets.cpp</in>
-            <in>widgets.h</in>
-            <in>widgets_abstract.h</in>
           </df>
           <df name="hash_map">
-            <in>hash_map_kernel_1.h</in>
-            <in>hash_map_kernel_abstract.h</in>
-            <in>hash_map_kernel_c.h</in>
           </df>
           <df name="hash_set">
-            <in>hash_set_kernel_1.h</in>
-            <in>hash_set_kernel_abstract.h</in>
-            <in>hash_set_kernel_c.h</in>
           </df>
           <df name="hash_table">
-            <in>hash_table_kernel_1.h</in>
-            <in>hash_table_kernel_2.h</in>
-            <in>hash_table_kernel_abstract.h</in>
-            <in>hash_table_kernel_c.h</in>
           </df>
           <df name="http_client">
             <in>http_client.cpp</in>
-            <in>http_client.h</in>
-            <in>http_client_abstract.h</in>
           </df>
           <df name="image_keypoint">
-            <in>binned_vector_feature_image.h</in>
-            <in>binned_vector_feature_image_abstract.h</in>
-            <in>build_separable_poly_filters.h</in>
-            <in>draw_surf_points.h</in>
-            <in>draw_surf_points_abstract.h</in>
-            <in>fine_hog_image.h</in>
-            <in>fine_hog_image_abstract.h</in>
-            <in>hashed_feature_image.h</in>
-            <in>hashed_feature_image_abstract.h</in>
-            <in>hessian_pyramid.h</in>
-            <in>hessian_pyramid_abstract.h</in>
-            <in>hog.h</in>
-            <in>hog_abstract.h</in>
-            <in>nearest_neighbor_feature_image.h</in>
-            <in>nearest_neighbor_feature_image_abstract.h</in>
-            <in>poly_image.h</in>
-            <in>poly_image_abstract.h</in>
-            <in>surf.h</in>
-            <in>surf_abstract.h</in>
           </df>
           <df name="image_loader">
-            <in>image_loader.h</in>
-            <in>image_loader_abstract.h</in>
             <in>jpeg_loader.cpp</in>
-            <in>jpeg_loader.h</in>
-            <in>jpeg_loader_abstract.h</in>
-            <in>load_image.h</in>
-            <in>load_image_abstract.h</in>
             <in>png_loader.cpp</in>
-            <in>png_loader.h</in>
-            <in>png_loader_abstract.h</in>
           </df>
           <df name="image_processing">
-            <in>box_overlap_testing.h</in>
-            <in>box_overlap_testing_abstract.h</in>
-            <in>correlation_tracker.h</in>
-            <in>correlation_tracker_abstract.h</in>
-            <in>detection_template_tools.h</in>
-            <in>detection_template_tools_abstract.h</in>
-            <in>frontal_face_detector.h</in>
-            <in>frontal_face_detector_abstract.h</in>
-            <in>full_object_detection.h</in>
-            <in>full_object_detection_abstract.h</in>
-            <in>generic_image.h</in>
-            <in>object_detector.h</in>
-            <in>object_detector_abstract.h</in>
-            <in>remove_unobtainable_rectangles.h</in>
-            <in>remove_unobtainable_rectangles_abstract.h</in>
-            <in>render_face_detections.h</in>
-            <in>render_face_detections_abstract.h</in>
-            <in>scan_fhog_pyramid.h</in>
-            <in>scan_fhog_pyramid_abstract.h</in>
-            <in>scan_image.h</in>
-            <in>scan_image_abstract.h</in>
-            <in>scan_image_boxes.h</in>
-            <in>scan_image_boxes_abstract.h</in>
-            <in>scan_image_custom.h</in>
-            <in>scan_image_custom_abstract.h</in>
-            <in>scan_image_pyramid.h</in>
-            <in>scan_image_pyramid_abstract.h</in>
-            <in>scan_image_pyramid_tools.h</in>
-            <in>scan_image_pyramid_tools_abstract.h</in>
-            <in>setup_hashed_features.h</in>
-            <in>setup_hashed_features_abstract.h</in>
-            <in>shape_predictor.h</in>
-            <in>shape_predictor_abstract.h</in>
           </df>
           <df name="image_saver">
-            <in>dng_shared.h</in>
-            <in>image_saver.h</in>
-            <in>image_saver_abstract.h</in>
             <in>save_jpeg.cpp</in>
-            <in>save_jpeg.h</in>
-            <in>save_jpeg_abstract.h</in>
             <in>save_png.cpp</in>
-            <in>save_png.h</in>
-            <in>save_png_abstract.h</in>
           </df>
           <df name="image_transforms">
-            <in>assign_image.h</in>
-            <in>assign_image_abstract.h</in>
-            <in>colormaps.h</in>
-            <in>colormaps_abstract.h</in>
-            <in>draw.h</in>
-            <in>draw_abstract.h</in>
-            <in>edge_detector.h</in>
-            <in>edge_detector_abstract.h</in>
-            <in>equalize_histogram.h</in>
-            <in>equalize_histogram_abstract.h</in>
-            <in>fhog.h</in>
-            <in>fhog_abstract.h</in>
-            <in>hough_transform.h</in>
-            <in>hough_transform_abstract.h</in>
-            <in>image_pyramid.h</in>
-            <in>image_pyramid_abstract.h</in>
-            <in>integral_image.h</in>
-            <in>integral_image_abstract.h</in>
-            <in>interpolation.h</in>
-            <in>interpolation_abstract.h</in>
-            <in>label_connected_blobs.h</in>
-            <in>label_connected_blobs_abstract.h</in>
-            <in>lbp.h</in>
-            <in>lbp_abstract.h</in>
-            <in>morphological_operations.h</in>
-            <in>morphological_operations_abstract.h</in>
-            <in>segment_image.h</in>
-            <in>segment_image_abstract.h</in>
-            <in>spatial_filtering.h</in>
-            <in>spatial_filtering_abstract.h</in>
-            <in>thresholding.h</in>
-            <in>thresholding_abstract.h</in>
           </df>
           <df name="interfaces">
-            <in>cmd_line_parser_option.h</in>
-            <in>enumerable.h</in>
-            <in>map_pair.h</in>
-            <in>remover.h</in>
           </df>
           <df name="iosockstream">
-            <in>iosockstream.h</in>
-            <in>iosockstream_abstract.h</in>
           </df>
           <df name="linker">
             <in>linker_kernel_1.cpp</in>
-            <in>linker_kernel_1.h</in>
-            <in>linker_kernel_abstract.h</in>
           </df>
           <df name="logger">
             <in>extra_logger_headers.cpp</in>
-            <in>extra_logger_headers.h</in>
             <in>logger_config_file.cpp</in>
-            <in>logger_config_file.h</in>
             <in>logger_kernel_1.cpp</in>
-            <in>logger_kernel_1.h</in>
-            <in>logger_kernel_abstract.h</in>
           </df>
           <df name="lsh">
-            <in>create_random_projection_hash.h</in>
-            <in>create_random_projection_hash_abstract.h</in>
-            <in>hashes.h</in>
-            <in>hashes_abstract.h</in>
-            <in>projection_hash.h</in>
-            <in>projection_hash_abstract.h</in>
           </df>
           <df name="lz77_buffer">
-            <in>lz77_buffer_kernel_1.h</in>
-            <in>lz77_buffer_kernel_2.h</in>
-            <in>lz77_buffer_kernel_abstract.h</in>
-            <in>lz77_buffer_kernel_c.h</in>
           </df>
           <df name="lzp_buffer">
-            <in>lzp_buffer_kernel_1.h</in>
-            <in>lzp_buffer_kernel_2.h</in>
-            <in>lzp_buffer_kernel_abstract.h</in>
-            <in>lzp_buffer_kernel_c.h</in>
           </df>
           <df name="manifold_regularization">
-            <in>linear_manifold_regularizer.h</in>
-            <in>linear_manifold_regularizer_abstract.h</in>
           </df>
           <df name="map">
-            <in>map_kernel_1.h</in>
-            <in>map_kernel_abstract.h</in>
-            <in>map_kernel_c.h</in>
           </df>
           <df name="matlab">
-            <in>CMakeLists.txt</in>
-            <in>README.txt</in>
-            <in>call_matlab.h</in>
             <in>example.m</in>
             <in>example_mex_callback.cpp</in>
             <in>example_mex_function.cpp</in>
@@ -785,446 +400,86 @@
           </df>
           <df name="matrix">
             <df name="lapack">
-              <in>fortran_id.h</in>
-              <in>gees.h</in>
-              <in>geev.h</in>
-              <in>geqrf.h</in>
-              <in>gesdd.h</in>
-              <in>gesvd.h</in>
-              <in>getrf.h</in>
-              <in>ormqr.h</in>
-              <in>potrf.h</in>
-              <in>syev.h</in>
-              <in>syevr.h</in>
             </df>
-            <in>cblas_constants.h</in>
-            <in>matrix.h</in>
-            <in>matrix_abstract.h</in>
-            <in>matrix_assign.h</in>
-            <in>matrix_assign_fwd.h</in>
-            <in>matrix_blas_bindings.h</in>
-            <in>matrix_cholesky.h</in>
-            <in>matrix_conj_trans.h</in>
-            <in>matrix_conv.h</in>
-            <in>matrix_conv_abstract.h</in>
-            <in>matrix_data_layout.h</in>
-            <in>matrix_data_layout_abstract.h</in>
-            <in>matrix_default_mul.h</in>
-            <in>matrix_eigenvalue.h</in>
-            <in>matrix_exp.h</in>
-            <in>matrix_exp_abstract.h</in>
-            <in>matrix_expressions.h</in>
-            <in>matrix_fft.h</in>
-            <in>matrix_fft_abstract.h</in>
-            <in>matrix_fwd.h</in>
-            <in>matrix_generic_image.h</in>
-            <in>matrix_la.h</in>
-            <in>matrix_la_abstract.h</in>
-            <in>matrix_lu.h</in>
-            <in>matrix_mat.h</in>
-            <in>matrix_mat_abstract.h</in>
-            <in>matrix_math_functions.h</in>
-            <in>matrix_math_functions_abstract.h</in>
-            <in>matrix_op.h</in>
-            <in>matrix_qr.h</in>
-            <in>matrix_read_from_istream.h</in>
-            <in>matrix_subexp.h</in>
-            <in>matrix_subexp_abstract.h</in>
-            <in>matrix_trsm.h</in>
-            <in>matrix_utilities.h</in>
-            <in>matrix_utilities_abstract.h</in>
-            <in>symmetric_matrix_cache.h</in>
-            <in>symmetric_matrix_cache_abstract.h</in>
           </df>
           <df name="md5">
             <in>md5_kernel_1.cpp</in>
-            <in>md5_kernel_1.h</in>
-            <in>md5_kernel_abstract.h</in>
           </df>
           <df name="member_function_pointer">
-            <in>make_mfp.h</in>
-            <in>make_mfp_abstract.h</in>
-            <in>member_function_pointer_kernel_1.h</in>
-            <in>member_function_pointer_kernel_abstract.h</in>
           </df>
           <df name="memory_manager">
-            <in>memory_manager_kernel_1.h</in>
-            <in>memory_manager_kernel_2.h</in>
-            <in>memory_manager_kernel_3.h</in>
-            <in>memory_manager_kernel_abstract.h</in>
           </df>
           <df name="memory_manager_global">
-            <in>memory_manager_global_kernel_1.h</in>
-            <in>memory_manager_global_kernel_abstract.h</in>
           </df>
           <df name="memory_manager_stateless">
-            <in>memory_manager_stateless_kernel_1.h</in>
-            <in>memory_manager_stateless_kernel_2.h</in>
-            <in>memory_manager_stateless_kernel_abstract.h</in>
           </df>
           <df name="misc_api">
             <in>misc_api_kernel_1.cpp</in>
-            <in>misc_api_kernel_1.h</in>
             <in>misc_api_kernel_2.cpp</in>
-            <in>misc_api_kernel_2.h</in>
-            <in>misc_api_kernel_abstract.h</in>
-            <in>misc_api_shared.h</in>
-            <in>posix.h</in>
-            <in>windows.h</in>
           </df>
           <df name="mlp">
-            <in>mlp_kernel_1.h</in>
-            <in>mlp_kernel_abstract.h</in>
-            <in>mlp_kernel_c.h</in>
           </df>
           <df name="numerical_integration">
-            <in>integrate_function_adapt_simpson.h</in>
-            <in>integrate_function_adapt_simpson_abstract.h</in>
           </df>
           <df name="opencv">
-            <in>cv_image.h</in>
-            <in>cv_image_abstract.h</in>
-            <in>to_open_cv.h</in>
-            <in>to_open_cv_abstract.h</in>
           </df>
           <df name="optimization">
-            <in>find_max_factor_graph_nmplp.h</in>
-            <in>find_max_factor_graph_nmplp_abstract.h</in>
-            <in>find_max_factor_graph_viterbi.h</in>
-            <in>find_max_factor_graph_viterbi_abstract.h</in>
-            <in>find_max_parse_cky.h</in>
-            <in>find_max_parse_cky_abstract.h</in>
-            <in>max_cost_assignment.h</in>
-            <in>max_cost_assignment_abstract.h</in>
-            <in>max_sum_submatrix.h</in>
-            <in>max_sum_submatrix_abstract.h</in>
-            <in>optimization.h</in>
-            <in>optimization_abstract.h</in>
-            <in>optimization_bobyqa.h</in>
-            <in>optimization_bobyqa_abstract.h</in>
-            <in>optimization_least_squares.h</in>
-            <in>optimization_least_squares_abstract.h</in>
-            <in>optimization_line_search.h</in>
-            <in>optimization_line_search_abstract.h</in>
-            <in>optimization_oca.h</in>
-            <in>optimization_oca_abstract.h</in>
-            <in>optimization_search_strategies.h</in>
-            <in>optimization_search_strategies_abstract.h</in>
-            <in>optimization_solve_qp2_using_smo.h</in>
-            <in>optimization_solve_qp2_using_smo_abstract.h</in>
-            <in>optimization_solve_qp3_using_smo.h</in>
-            <in>optimization_solve_qp3_using_smo_abstract.h</in>
-            <in>optimization_solve_qp_using_smo.h</in>
-            <in>optimization_solve_qp_using_smo_abstract.h</in>
-            <in>optimization_stop_strategies.h</in>
-            <in>optimization_stop_strategies_abstract.h</in>
-            <in>optimization_trust_region.h</in>
-            <in>optimization_trust_region_abstract.h</in>
           </df>
           <df name="pipe">
-            <in>pipe_kernel_1.h</in>
-            <in>pipe_kernel_abstract.h</in>
           </df>
           <df name="python">
-            <in>boost_python_utils.h</in>
-            <in>numpy.h</in>
-            <in>numpy_image.h</in>
-            <in>pyassert.h</in>
-            <in>serialize_pickle.h</in>
           </df>
           <df name="quantum_computing">
-            <in>quantum_computing.h</in>
-            <in>quantum_computing_abstract.h</in>
           </df>
           <df name="queue">
-            <in>queue_kernel_1.h</in>
-            <in>queue_kernel_2.h</in>
-            <in>queue_kernel_abstract.h</in>
-            <in>queue_kernel_c.h</in>
-            <in>queue_sort_1.h</in>
-            <in>queue_sort_abstract.h</in>
           </df>
           <df name="rand">
-            <in>mersenne_twister.h</in>
-            <in>rand_kernel_1.h</in>
-            <in>rand_kernel_abstract.h</in>
           </df>
           <df name="reference_counter">
-            <in>reference_counter_kernel_1.h</in>
-            <in>reference_counter_kernel_abstract.h</in>
           </df>
           <df name="sequence">
-            <in>sequence_compare_1.h</in>
-            <in>sequence_compare_abstract.h</in>
-            <in>sequence_kernel_1.h</in>
-            <in>sequence_kernel_2.h</in>
-            <in>sequence_kernel_abstract.h</in>
-            <in>sequence_kernel_c.h</in>
-            <in>sequence_sort_1.h</in>
-            <in>sequence_sort_2.h</in>
-            <in>sequence_sort_abstract.h</in>
           </df>
           <df name="server">
             <in>server_http.cpp</in>
-            <in>server_http.h</in>
-            <in>server_http_abstract.h</in>
             <in>server_iostream.cpp</in>
-            <in>server_iostream.h</in>
-            <in>server_iostream_abstract.h</in>
             <in>server_kernel.cpp</in>
-            <in>server_kernel.h</in>
-            <in>server_kernel_abstract.h</in>
           </df>
           <df name="set">
-            <in>set_compare_1.h</in>
-            <in>set_compare_abstract.h</in>
-            <in>set_kernel_1.h</in>
-            <in>set_kernel_abstract.h</in>
-            <in>set_kernel_c.h</in>
           </df>
           <df name="set_utils">
-            <in>set_utils.h</in>
-            <in>set_utils_abstract.h</in>
           </df>
           <df name="simd">
-            <in>simd4f.h</in>
-            <in>simd4i.h</in>
-            <in>simd8f.h</in>
-            <in>simd8i.h</in>
-            <in>simd_check.h</in>
           </df>
           <df name="sliding_buffer">
-            <in>circular_buffer.h</in>
-            <in>circular_buffer_abstract.h</in>
-            <in>sliding_buffer_kernel_1.h</in>
-            <in>sliding_buffer_kernel_abstract.h</in>
-            <in>sliding_buffer_kernel_c.h</in>
           </df>
           <df name="smart_pointers">
-            <in>scoped_ptr.h</in>
-            <in>scoped_ptr_abstract.h</in>
-            <in>shared_ptr.h</in>
-            <in>shared_ptr_abstract.h</in>
-            <in>shared_ptr_thread_safe.h</in>
-            <in>shared_ptr_thread_safe_abstract.h</in>
-            <in>weak_ptr.h</in>
-            <in>weak_ptr_abstract.h</in>
           </df>
           <df name="sockets">
-            <in>posix.h</in>
             <in>sockets_extensions.cpp</in>
-            <in>sockets_extensions.h</in>
-            <in>sockets_extensions_abstract.h</in>
             <in>sockets_kernel_1.cpp</in>
-            <in>sockets_kernel_1.h</in>
             <in>sockets_kernel_2.cpp</in>
-            <in>sockets_kernel_2.h</in>
-            <in>sockets_kernel_abstract.h</in>
-            <in>windows.h</in>
           </df>
           <df name="sockstreambuf">
             <in>sockstreambuf.cpp</in>
-            <in>sockstreambuf.h</in>
-            <in>sockstreambuf_abstract.h</in>
             <in>sockstreambuf_unbuffered.cpp</in>
-            <in>sockstreambuf_unbuffered.h</in>
           </df>
           <df name="sqlite">
-            <in>sqlite.h</in>
-            <in>sqlite_abstract.h</in>
-            <in>sqlite_tools.h</in>
-            <in>sqlite_tools_abstract.h</in>
           </df>
           <df name="stack">
-            <in>stack_kernel_1.h</in>
-            <in>stack_kernel_abstract.h</in>
-            <in>stack_kernel_c.h</in>
           </df>
           <df name="static_map">
-            <in>static_map_kernel_1.h</in>
-            <in>static_map_kernel_abstract.h</in>
-            <in>static_map_kernel_c.h</in>
           </df>
           <df name="static_set">
-            <in>static_set_compare_1.h</in>
-            <in>static_set_compare_abstract.h</in>
-            <in>static_set_kernel_1.h</in>
-            <in>static_set_kernel_abstract.h</in>
-            <in>static_set_kernel_c.h</in>
           </df>
           <df name="statistics">
-            <in>average_precision.h</in>
-            <in>average_precision_abstract.h</in>
-            <in>cca.h</in>
-            <in>cca_abstract.h</in>
-            <in>dpca.h</in>
-            <in>dpca_abstract.h</in>
-            <in>image_feature_sampling.h</in>
-            <in>image_feature_sampling_abstract.h</in>
-            <in>lda.h</in>
-            <in>lda_abstract.h</in>
-            <in>random_subset_selector.h</in>
-            <in>random_subset_selector_abstract.h</in>
-            <in>sammon.h</in>
-            <in>sammon_abstract.h</in>
-            <in>statistics.h</in>
-            <in>statistics_abstract.h</in>
-            <in>vector_normalizer_frobmetric.h</in>
-            <in>vector_normalizer_frobmetric_abstract.h</in>
           </df>
           <df name="stl_checked">
-            <in>std_vector_c.h</in>
-            <in>std_vector_c_abstract.h</in>
           </df>
           <df name="string">
-            <in>cassert</in>
-            <in>iomanip</in>
-            <in>iosfwd</in>
-            <in>iostream</in>
-            <in>locale</in>
-            <in>string.h</in>
-            <in>string_abstract.h</in>
           </df>
           <df name="svm">
-            <in>active_learning.h</in>
-            <in>active_learning_abstract.h</in>
-            <in>assignment_function.h</in>
-            <in>assignment_function_abstract.h</in>
-            <in>cross_validate_assignment_trainer.h</in>
-            <in>cross_validate_assignment_trainer_abstract.h</in>
-            <in>cross_validate_graph_labeling_trainer.h</in>
-            <in>cross_validate_graph_labeling_trainer_abstract.h</in>
-            <in>cross_validate_multiclass_trainer.h</in>
-            <in>cross_validate_multiclass_trainer_abstract.h</in>
-            <in>cross_validate_object_detection_trainer.h</in>
-            <in>cross_validate_object_detection_trainer_abstract.h</in>
-            <in>cross_validate_regression_trainer.h</in>
-            <in>cross_validate_regression_trainer_abstract.h</in>
-            <in>cross_validate_sequence_labeler.h</in>
-            <in>cross_validate_sequence_labeler_abstract.h</in>
-            <in>cross_validate_sequence_segmenter.h</in>
-            <in>cross_validate_sequence_segmenter_abstract.h</in>
-            <in>cross_validate_track_association_trainer.h</in>
-            <in>cross_validate_track_association_trainer_abstract.h</in>
-            <in>empirical_kernel_map.h</in>
-            <in>empirical_kernel_map_abstract.h</in>
-            <in>feature_ranking.h</in>
-            <in>feature_ranking_abstract.h</in>
-            <in>function.h</in>
-            <in>function_abstract.h</in>
-            <in>kcentroid.h</in>
-            <in>kcentroid_abstract.h</in>
-            <in>kcentroid_overloads.h</in>
-            <in>kernel.h</in>
-            <in>kernel_abstract.h</in>
-            <in>kernel_matrix.h</in>
-            <in>kernel_matrix_abstract.h</in>
-            <in>kkmeans.h</in>
-            <in>kkmeans_abstract.h</in>
-            <in>krls.h</in>
-            <in>krls_abstract.h</in>
-            <in>krr_trainer.h</in>
-            <in>krr_trainer_abstract.h</in>
-            <in>linearly_independent_subset_finder.h</in>
-            <in>linearly_independent_subset_finder_abstract.h</in>
-            <in>multiclass_tools.h</in>
-            <in>multiclass_tools_abstract.h</in>
-            <in>null_df.h</in>
-            <in>null_trainer.h</in>
-            <in>null_trainer_abstract.h</in>
-            <in>num_nonnegative_weights.h</in>
-            <in>one_vs_all_decision_function.h</in>
-            <in>one_vs_all_decision_function_abstract.h</in>
-            <in>one_vs_all_trainer.h</in>
-            <in>one_vs_all_trainer_abstract.h</in>
-            <in>one_vs_one_decision_function.h</in>
-            <in>one_vs_one_decision_function_abstract.h</in>
-            <in>one_vs_one_trainer.h</in>
-            <in>one_vs_one_trainer_abstract.h</in>
-            <in>pegasos.h</in>
-            <in>pegasos_abstract.h</in>
-            <in>ranking_tools.h</in>
-            <in>ranking_tools_abstract.h</in>
-            <in>rbf_network.h</in>
-            <in>rbf_network_abstract.h</in>
-            <in>reduced.h</in>
-            <in>reduced_abstract.h</in>
-            <in>rls.h</in>
-            <in>rls_abstract.h</in>
-            <in>roc_trainer.h</in>
-            <in>roc_trainer_abstract.h</in>
-            <in>rr_trainer.h</in>
-            <in>rr_trainer_abstract.h</in>
-            <in>rvm.h</in>
-            <in>rvm_abstract.h</in>
-            <in>sequence_labeler.h</in>
-            <in>sequence_labeler_abstract.h</in>
-            <in>sequence_segmenter.h</in>
-            <in>sequence_segmenter_abstract.h</in>
-            <in>simplify_linear_decision_function.h</in>
-            <in>simplify_linear_decision_function_abstract.h</in>
-            <in>sort_basis_vectors.h</in>
-            <in>sort_basis_vectors_abstract.h</in>
-            <in>sparse_kernel.h</in>
-            <in>sparse_kernel_abstract.h</in>
-            <in>sparse_vector.h</in>
-            <in>sparse_vector_abstract.h</in>
-            <in>structural_assignment_trainer.h</in>
-            <in>structural_assignment_trainer_abstract.h</in>
-            <in>structural_graph_labeling_trainer.h</in>
-            <in>structural_graph_labeling_trainer_abstract.h</in>
-            <in>structural_object_detection_trainer.h</in>
-            <in>structural_object_detection_trainer_abstract.h</in>
-            <in>structural_sequence_labeling_trainer.h</in>
-            <in>structural_sequence_labeling_trainer_abstract.h</in>
-            <in>structural_sequence_segmentation_trainer.h</in>
-            <in>structural_sequence_segmentation_trainer_abstract.h</in>
-            <in>structural_svm_assignment_problem.h</in>
-            <in>structural_svm_assignment_problem_abstract.h</in>
-            <in>structural_svm_distributed.h</in>
-            <in>structural_svm_distributed_abstract.h</in>
-            <in>structural_svm_graph_labeling_problem.h</in>
-            <in>structural_svm_graph_labeling_problem_abstract.h</in>
-            <in>structural_svm_object_detection_problem.h</in>
-            <in>structural_svm_object_detection_problem_abstract.h</in>
-            <in>structural_svm_problem.h</in>
-            <in>structural_svm_problem_abstract.h</in>
-            <in>structural_svm_problem_threaded.h</in>
-            <in>structural_svm_problem_threaded_abstract.h</in>
-            <in>structural_svm_sequence_labeling_problem.h</in>
-            <in>structural_svm_sequence_labeling_problem_abstract.h</in>
-            <in>structural_track_association_trainer.h</in>
-            <in>structural_track_association_trainer_abstract.h</in>
-            <in>svm.h</in>
-            <in>svm_abstract.h</in>
-            <in>svm_c_ekm_trainer.h</in>
-            <in>svm_c_ekm_trainer_abstract.h</in>
-            <in>svm_c_linear_dcd_trainer.h</in>
-            <in>svm_c_linear_dcd_trainer_abstract.h</in>
-            <in>svm_c_linear_trainer.h</in>
-            <in>svm_c_linear_trainer_abstract.h</in>
-            <in>svm_c_trainer.h</in>
-            <in>svm_c_trainer_abstract.h</in>
-            <in>svm_multiclass_linear_trainer.h</in>
-            <in>svm_multiclass_linear_trainer_abstract.h</in>
-            <in>svm_nu_trainer.h</in>
-            <in>svm_nu_trainer_abstract.h</in>
-            <in>svm_one_class_trainer.h</in>
-            <in>svm_one_class_trainer_abstract.h</in>
-            <in>svm_rank_trainer.h</in>
-            <in>svm_rank_trainer_abstract.h</in>
-            <in>svm_threaded.h</in>
-            <in>svm_threaded_abstract.h</in>
-            <in>svr_linear_trainer.h</in>
-            <in>svr_linear_trainer_abstract.h</in>
-            <in>svr_trainer.h</in>
-            <in>svr_trainer_abstract.h</in>
-            <in>track_association_function.h</in>
-            <in>track_association_function_abstract.h</in>
           </df>
           <df name="sync_extension">
-            <in>sync_extension_kernel_1.h</in>
-            <in>sync_extension_kernel_abstract.h</in>
           </df>
           <df name="test">
             <df name="blas_bindings">
@@ -1427,8 +682,6 @@
             <in>windows.h</in>
           </df>
           <df name="timeout">
-            <in>timeout.h</in>
-            <in>timeout_abstract.h</in>
           </df>
           <df name="timer">
             <in>timer.cpp</in>
@@ -1443,12 +696,8 @@
             <in>tokenizer_kernel_c.h</in>
           </df>
           <df name="tuple">
-            <in>tuple.h</in>
-            <in>tuple_abstract.h</in>
           </df>
           <df name="type_safe_union">
-            <in>type_safe_union_kernel.h</in>
-            <in>type_safe_union_kernel_abstract.h</in>
           </df>
           <df name="unicode">
             <in>unicode.cpp</in>
@@ -1456,215 +705,39 @@
             <in>unicode_abstract.h</in>
           </df>
           <df name="vectorstream">
-            <in>vectorstream.h</in>
-            <in>vectorstream_abstract.h</in>
           </df>
           <df name="xml_parser">
-            <in>xml_parser_kernel_1.h</in>
-            <in>xml_parser_kernel_abstract.h</in>
-            <in>xml_parser_kernel_interfaces.h</in>
           </df>
-          <in>CMakeLists.txt</in>
-          <in>LICENSE.txt</in>
-          <in>README.txt</in>
-          <in>algs.h</in>
           <in>all_console.cpp</in>
           <in>all_gui.cpp</in>
-          <in>any.h</in>
-          <in>array.h</in>
-          <in>array2d.h</in>
-          <in>assert.h</in>
-          <in>base64.h</in>
-          <in>bayes_utils.h</in>
-          <in>bigint.h</in>
-          <in>binary_search_tree.h</in>
-          <in>bit_stream.h</in>
-          <in>bound_function_pointer.h</in>
-          <in>bridge.h</in>
-          <in>bsp.h</in>
-          <in>byte_orderer.h</in>
-          <in>cassert</in>
-          <in>clustering.h</in>
-          <in>cmake_find_blas.txt</in>
-          <in>cmd_line_parser.h</in>
-          <in>compress_stream.h</in>
-          <in>conditioning_class.h</in>
-          <in>config.h</in>
-          <in>config_reader.h</in>
-          <in>console_progress_indicator.h</in>
-          <in>control.h</in>
-          <in>cpp_pretty_printer.h</in>
-          <in>cpp_tokenizer.h</in>
-          <in>crc32.h</in>
-          <in>cstring</in>
-          <in>data_io.h</in>
-          <in>dir_nav.h</in>
-          <in>directed_graph.h</in>
-          <in>disjoint_subsets.h</in>
-          <in>dlib_include_path_tutorial.txt</in>
-          <in>enable_if.h</in>
-          <in>entropy_decoder.h</in>
-          <in>entropy_decoder_model.h</in>
-          <in>entropy_encoder.h</in>
-          <in>entropy_encoder_model.h</in>
-          <in>error.h</in>
-          <in>filtering.h</in>
-          <in>float_details.h</in>
-          <in>fstream</in>
-          <in>geometry.h</in>
-          <in>graph.h</in>
-          <in>graph_cuts.h</in>
-          <in>graph_utils.h</in>
-          <in>graph_utils_threaded.h</in>
-          <in>gui_core.h</in>
-          <in>gui_widgets.h</in>
-          <in>hash.h</in>
-          <in>hash_map.h</in>
-          <in>hash_set.h</in>
-          <in>hash_table.h</in>
-          <in>image_io.h</in>
-          <in>image_keypoint.h</in>
-          <in>image_processing.h</in>
-          <in>image_transforms.h</in>
-          <in>iomanip</in>
-          <in>iosfwd</in>
-          <in>iosockstream.h</in>
-          <in>iostream</in>
-          <in>is_kind.h</in>
-          <in>istream</in>
-          <in>linker.h</in>
-          <in>locale</in>
-          <in>logger.h</in>
-          <in>lsh.h</in>
-          <in>lz77_buffer.h</in>
-          <in>lzp_buffer.h</in>
-          <in>manifold_regularization.h</in>
-          <in>map.h</in>
-          <in>matrix.h</in>
-          <in>md5.h</in>
-          <in>member_function_pointer.h</in>
-          <in>memory_manager.h</in>
-          <in>memory_manager_global.h</in>
-          <in>memory_manager_stateless.h</in>
-          <in>misc_api.h</in>
-          <in>mlp.h</in>
-          <in>noncopyable.h</in>
-          <in>numeric_constants.h</in>
-          <in>numerical_integration.h</in>
-          <in>opencv.h</in>
-          <in>optimization.h</in>
-          <in>ostream</in>
-          <in>pipe.h</in>
-          <in>pixel.h</in>
-          <in>platform.h</in>
-          <in>python.h</in>
-          <in>quantum_computing.h</in>
-          <in>queue.h</in>
-          <in>rand.h</in>
-          <in>ref.h</in>
-          <in>reference_counter.h</in>
-          <in>revision.h</in>
-          <in>sequence.h</in>
-          <in>serialize.h</in>
-          <in>server.h</in>
-          <in>set.h</in>
-          <in>set_utils.h</in>
-          <in>simd.h</in>
-          <in>sliding_buffer.h</in>
-          <in>smart_pointers.h</in>
-          <in>smart_pointers_thread_safe.h</in>
-          <in>sockets.h</in>
-          <in>sockstreambuf.h</in>
-          <in>sort.h</in>
-          <in>sparse_vector.h</in>
-          <in>sqlite.h</in>
-          <in>sstream</in>
-          <in>stack.h</in>
           <in>stack_trace.cpp</in>
-          <in>stack_trace.h</in>
-          <in>static_map.h</in>
-          <in>static_set.h</in>
-          <in>statistics.h</in>
-          <in>std_allocator.h</in>
-          <in>stl_checked.h</in>
-          <in>string.h</in>
-          <in>svm.h</in>
-          <in>svm_threaded.h</in>
-          <in>sync_extension.h</in>
-          <in>threads.h</in>
-          <in>time_this.h</in>
-          <in>timeout.h</in>
-          <in>timer.h</in>
-          <in>timing.h</in>
-          <in>tokenizer.h</in>
-          <in>tuple.h</in>
-          <in>type_safe_union.h</in>
-          <in>uintn.h</in>
-          <in>unicode.h</in>
-          <in>unordered_pair.h</in>
-          <in>vectorstream.h</in>
-          <in>windows_magic.h</in>
-          <in>xml_parser.h</in>
         </df>
-        <in>01_CMakeLists.txt</in>
         <in>Annotation.cpp</in>
-        <in>Annotation.hpp</in>
         <in>Cell.cpp</in>
-        <in>Cell.hpp</in>
-        <in>Classifier.hpp</in>
         <in>Collection.cpp</in>
-        <in>Collection.hpp</in>
         <in>ColorHistogram.cpp</in>
-        <in>ColorHistogram.hpp</in>
         <in>Component.cpp</in>
-        <in>Component.hpp</in>
         <in>CompoundLocalBinaryPattern.cpp</in>
-        <in>CompoundLocalBinaryPattern.hpp</in>
-        <in>Descriptor.hpp</in>
         <in>Face.cpp</in>
-        <in>Face.hpp</in>
         <in>GaborFilter.cpp</in>
-        <in>GaborFilter.hpp</in>
         <in>HistogramOrientedGradient.cpp</in>
-        <in>HistogramOrientedGradient.hpp</in>
         <in>ImageSet.cpp</in>
-        <in>ImageSet.hpp</in>
         <in>Label.cpp</in>
-        <in>Label.hpp</in>
         <in>LocalBinaryPattern.cpp</in>
-        <in>LocalBinaryPattern.hpp</in>
         <in>Matrix.cpp</in>
-        <in>Matrix.hpp</in>
         <in>MeanIntensity.cpp</in>
-        <in>MeanIntensity.hpp</in>
-        <in>Norm.hpp</in>
         <in>PLSclassifier.cpp</in>
-        <in>PLSclassifier.hpp</in>
         <in>PLSregression.cpp</in>
-        <in>PLSregression.hpp</in>
         <in>PatternOrientedEdgeMagnitude.cpp</in>
-        <in>PatternOrientedEdgeMagnitude.hpp</in>
-        <in>Regression.hpp</in>
         <in>SlideWindow.cpp</in>
-        <in>SlideWindow.hpp</in>
-        <in>Template.hpp</in>
         <in>UStandardDeviation.cpp</in>
-        <in>UStandardDeviation.hpp</in>
         <in>Useful.cpp</in>
-        <in>Useful.hpp</in>
         <in>ZeroMean.cpp</in>
-        <in>ZeroMean.hpp</in>
         <in>ZeroScore.cpp</in>
-        <in>ZeroScore.hpp</in>
         <in>main.cpp</in>
       </df>
-      <in>CMakeCache.txt</in>
-      <in>CMakeLists.txt</in>
       <in>features.m</in>
-      <in>features_annotations_EvaluationImages.txt</in>
-      <in>features_annotations_GalleryImages.txt</in>
       <in>features_annotations_ProbeImages.txt</in>
-      <in>labels_annotations_EvaluationImages.txt</in>
       <in>labels_annotations_GalleryImages.txt</in>
       <in>labels_annotations_ProbeImages.txt</in>
     </df>
@@ -1694,8 +767,6 @@
         <gdb_interceptlist>
           <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
         </gdb_interceptlist>
-        <gdb_signals>
-        </gdb_signals>
         <gdb_options>
           <DebugOptions>
             <option name="debug_command"
@@ -1747,8 +818,6 @@
         <gdb_interceptlist>
           <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
         </gdb_interceptlist>
-        <gdb_signals>
-        </gdb_signals>
         <gdb_options>
           <DebugOptions>
             <option name="debug_command"
@@ -1801,8 +870,6 @@
         <gdb_interceptlist>
           <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
         </gdb_interceptlist>
-        <gdb_signals>
-        </gdb_signals>
         <gdb_options>
           <DebugOptions>
             <option name="debug_command"
@@ -1856,8 +923,6 @@
         <gdb_interceptlist>
           <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
         </gdb_interceptlist>
-        <gdb_signals>
-        </gdb_signals>
         <gdb_options>
           <DebugOptions>
             <option name="debug_command"

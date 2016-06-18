@@ -2,19 +2,6 @@
 <configurationDescriptor version="97">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <df root="." name="0">
-      <df name="CMakeFiles">
-        <df name="2.8.12.2">
-          <df name="CompilerIdC">
-            <in>CMakeCCompilerId.c</in>
-          </df>
-          <df name="CompilerIdCXX">
-            <in>CMakeCXXCompilerId.cpp</in>
-          </df>
-        </df>
-        <df name="CheckTypeSize">
-          <in>SIZE_OF_VOID_PTR.c</in>
-        </df>
-      </df>
       <df name="src">
         <df name="bin">
           <in>extractFeatures.m</in>
@@ -401,7 +388,6 @@
         <in>ZeroScore.cpp</in>
         <in>main.cpp</in>
       </df>
-      <in>features.m</in>
     </df>
     <logicalFolder name="Modules"
                    displayName="Modules"

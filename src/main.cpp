@@ -48,15 +48,15 @@ int main(int argc, const char * argv[]) {
 
         cout << "----Generating Train Collection----\n";
         Collection train = Collection(gallery.getImageArray());
-        train.resizeFaces(128);
+        train.resizeFaces(256);
         cout << "\tGallery Landmark Identification\n";
         train.fetchLandmarks(string(PREDICTOR), SHOW);
         cout << "\tGallery Cells Fetching\n";
         train.fetchCells(SHOW);
         cout << "\tGallery Components Fetching\n";
         train.fetchComponents(SHOW);
-        cout << "\tGallery Face Fetching\n";
-        train.fetchFaces(SHOW);
+//        cout << "\tGallery Face Fetching\n";
+//        train.fetchFaces(SHOW);
 
         cout << "\tAll Features Fetching\n";
         train.getAllFeatures(gallerySamples, galleryLabels);
@@ -127,7 +127,7 @@ int main(int argc, const char * argv[]) {
         
         cout << "----Generating Test Collection----\n";
         Collection test = Collection(probe.getImageArray());
-        test.resizeFaces(128);
+        test.resizeFaces(256);
         test.sharpenFaces();
         cout << "\tProbe Landmark Identification\n";
         test.fetchLandmarks(string(PREDICTOR), SHOW);
@@ -135,8 +135,8 @@ int main(int argc, const char * argv[]) {
         test.fetchCells(SHOW);
         cout << "\tProbe Components Fetching\n";
         test.fetchComponents(SHOW);
-        cout << "\tProbe Face Fetching\n";
-        test.fetchFaces(SHOW);
+//        cout << "\tProbe Face Fetching\n";
+//        test.fetchFaces(SHOW);
 
         vector<string> samples = probe.getSamples();
         vector<string> subjects = probe.getSubjects();
