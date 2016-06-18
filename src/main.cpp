@@ -65,14 +65,11 @@ int main(int argc, const char * argv[]) {
         cout << "\tWriting features to file: features_" + note.substr(note.find_last_of("/") + 1) << endl;
         ofstream outfile;
         outfile.open("features_" + note.substr(note.find_last_of("/") + 1));
-        for (unsigned int outer = 0; outer < gallerySamples.rows; outer++) {
-            const double* doubleSamples = gallerySamples.ptr<double>(outer);            
+        for (unsigned int outer = 0; outer < gallerySamples.rows; outer++) {        
             for (unsigned int inner = 0; inner < gallerySamples.cols; inner++) {
-                //outfile << doubleSamples[inner] << " ";
                 outfile << *gallerySamples.row(outer).col(inner)[0] << " ";
             }
             outfile << endl;
-            
         }
         outfile.close();
 
@@ -83,8 +80,8 @@ int main(int argc, const char * argv[]) {
         }
         outfile.close();  
 
-        cout << endl << "Quitting..." << endl;
-        return 0;
+//        cout << endl << "Quitting..." << endl;
+//        return 0;
 
         cout << "----Training----\n";
         zscore.trainNorm(gallerySamples);
@@ -155,12 +152,9 @@ int main(int argc, const char * argv[]) {
         cout << "\tWriting features to file: features_" + note.substr(note.find_last_of("/") + 1) << endl;
         ofstream outfile;
         outfile.open("features_" + note.substr(note.find_last_of("/") + 1));
-        for (unsigned int outer = 0; outer < probeSamples.rows; outer++) {
-            const double* doubleSamples = probeSamples.ptr<double>(outer);
-            
+        for (unsigned int outer = 0; outer < probeSamples.rows; outer++) {        
             for (unsigned int inner = 0; inner < probeSamples.cols; inner++) {
-                //cout << probeSamples.row(outer).col(inner) << " ";
-                outfile << doubleSamples[inner] << " ";
+                outfile << *probeSamples.row(outer).col(inner)[0] << " ";
             }
             outfile << endl;
         }
@@ -172,7 +166,6 @@ int main(int argc, const char * argv[]) {
             outfile << probeLabels[index].getId() << endl;
         }
         outfile.close(); 
-
 
         cout << "----Testing----\n";
         zscore.norm(probeSamples);

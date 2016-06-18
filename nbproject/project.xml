@@ -17,6 +17,18 @@
                     <name>Default</name>
                     <type>0</type>
                 </confElem>
+                <confElem>
+                    <name>Train</name>
+                    <type>0</type>
+                </confElem>
+                <confElem>
+                    <name>Test</name>
+                    <type>0</type>
+                </confElem>
+                <confElem>
+                    <name>Eval</name>
+                    <type>0</type>
+                </confElem>
             </confList>
             <formatting>
                 <project-formatting-style>false</project-formatting-style>

@@ -14,9 +14,10 @@
 *.png
 
 # Output files
-*.txt
 *.csv
 *.mat
+*.model
+*.txt
 
 # Compiled Object files
 *.slo
