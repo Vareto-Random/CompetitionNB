@@ -12,6 +12,7 @@
 #include "Cell.hpp"
 #include "Collection.hpp"
 #include "ImageSet.hpp"
+#include "Useful.hpp"
 
 #include "PLSclassifier.hpp"
 
@@ -21,7 +22,7 @@
 #include "SlideWindow.hpp"
 #include "ZeroScore.hpp"
 
-#define CROP false
+#define CROP true
 #define MODEL "training.model"
 #define PREDICTOR "shape_predictor.dat"
 #define SHOW false
@@ -40,27 +41,29 @@ int main(int argc, const char * argv[]) {
 
     if ( (argc == 4) and (strcmp (argv[3],"--train") == 0) ) //TRAINING
     {
-        cout << "----Reading Gallery----\n";
-        ImageSet gallery = ImageSet(note, path);
-        gallery.readNotes(CROP);
-        //gallery.increaseWindowSize(1.15);
-        gallery.loadFaces(CROP); //string("_f.jpg")
-
-        cout << "----Generating Train Collection----\n";
-        Collection train = Collection(gallery.getImageArray());
-        train.resizeFaces(256);
-        cout << "\tGallery Landmark Identification\n";
-        train.fetchLandmarks(string(PREDICTOR), SHOW);
-        cout << "\tGallery Cells Fetching\n";
-        train.fetchCells(SHOW);
-        cout << "\tGallery Components Fetching\n";
-        train.fetchComponents(SHOW);
+//        cout << "----Reading Gallery----\n";
+//        ImageSet gallery = ImageSet(note, path);
+//        gallery.readNotes(CROP);
+//        gallery.increaseWindowSize(1.15);
+//        gallery.loadFaces(CROP); //string("_f.jpg")
+//
+//        cout << "----Generating Train Collection----\n";
+//        Collection train = Collection(gallery.getImageArray());
+//        train.resizeFaces(256);
+//        cout << "\tGallery Landmark Identification\n";
+//        train.fetchLandmarks(string(PREDICTOR), SHOW);
+//        cout << "\tGallery Cells Fetching\n";
+//        train.fetchCells(SHOW);
+//        cout << "\tGallery Components Fetching\n";
+//        train.fetchComponents(SHOW);
 //        cout << "\tGallery Face Fetching\n";
 //        train.fetchFaces(SHOW);
-
-        cout << "\tAll Features Fetching\n";
-        train.getAllFeatures(gallerySamples, galleryLabels);
-        cout << "ROWS: " << gallerySamples.rows << " - COLS: " << gallerySamples.cols << endl;
+//
+//        cout << "\tAll Features Fetching\n";
+//        train.getAllFeatures(gallerySamples, galleryLabels);
+//        cout << "ROWS: " << gallerySamples.rows << " - COLS: " << gallerySamples.cols << endl;
+        
+        Useful::readCNNfeatures("dataset/Features/Gallery_34.txt", note, gallerySamples, galleryLabels);
 
         cout << "\tWriting features to file: features_" + note.substr(note.find_last_of("/") + 1) << endl;
         ofstream outfile;
@@ -122,7 +125,7 @@ int main(int argc, const char * argv[]) {
         cout << "----Reading Probe----\n";
         ImageSet probe = ImageSet(note, path);
         probe.readNotes(CROP);
-        //probe.increaseWindowSize(1.15);
+        probe.increaseWindowSize(1.15);
         probe.loadFaces(CROP);
         
         cout << "----Generating Test Collection----\n";
@@ -135,15 +138,14 @@ int main(int argc, const char * argv[]) {
         test.fetchCells(SHOW);
         cout << "\tProbe Components Fetching\n";
         test.fetchComponents(SHOW);
-//        cout << "\tProbe Face Fetching\n";
-//        test.fetchFaces(SHOW);
+        cout << "\tProbe Face Fetching\n";
+        test.fetchFaces(SHOW);
 
         vector<string> samples = probe.getSamples();
         vector<string> subjects = probe.getSubjects();
 
         vector<int> hits(subjects.size(), 0);
         vector<pair<string, float> > ranking( subjects.size() );
-
 
         cout << "\tAll Features Fetching\n";
         test.getAllFeatures(probeSamples, probeLabels);

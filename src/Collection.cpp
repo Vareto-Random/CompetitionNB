@@ -348,9 +348,9 @@ bool Collection::getAllFeatures(Matrix &_samples, Labels &_labels, const bool _e
     map<string, vector<Cell> >::iterator itCell;
     map<string, vector<Component> >::iterator itComp;
     map<string, Face>::iterator itFace;
-    for (itCell = this->cellArray.begin(), itComp = this->componentArray.begin()/*, itFace = this->faceArray.begin()*/;
-         itCell != this->cellArray.end() or itComp != this->componentArray.end() /*or itFace != this->faceArray.end()*/;
-         itCell++, itComp++/*, itFace++*/) {
+    for (itCell = this->cellArray.begin(), itComp = this->componentArray.begin(), itFace = this->faceArray.begin();
+         itCell != this->cellArray.end() or itComp != this->componentArray.end() or itFace != this->faceArray.end();
+         itCell++, itComp++, itFace++) {
         
         cv::Mat sample;
         _labels[count].setId(itCell->first.substr(0,3));

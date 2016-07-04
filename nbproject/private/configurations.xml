@@ -21,21 +21,28 @@
           </df>
           <in>link.txt</in>
         </df>
-        <df name="Progress">
-          <in>count.txt</in>
-        </df>
         <in>TargetDirectories.txt</in>
       </df>
       <df name="dataset">
-        <df name="icbrw_EvaluationImages">
+        <df name="Evaluation">
         </df>
-        <df name="icbrw_GalleryImages">
+        <df name="Features">
+          <in>Evaluation_34.txt</in>
+          <in>Evaluation_36.txt</in>
+          <in>Gallery_34.txt</in>
+          <in>Gallery_36.txt</in>
+          <in>Probe_34.txt</in>
+          <in>Probe_36.txt</in>
         </df>
-        <df name="icbrw_ProbeImages">
+        <df name="Gallery">
+        </df>
+        <df name="Probe">
         </df>
         <in>annotations_EvaluationImages.txt</in>
+        <in>annotations_EvaluationImages3.txt</in>
         <in>annotations_GalleryImages.txt</in>
         <in>annotations_ProbeImages.txt</in>
+        <in>annotations_ProbeImages3.txt</in>
       </df>
       <df name="dlib_build">
         <df name="CMakeFiles">
@@ -1748,6 +1755,8 @@
         <gdb_interceptlist>
           <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
         </gdb_interceptlist>
+        <gdb_signals>
+        </gdb_signals>
         <gdb_options>
           <DebugOptions>
             <option name="debug_command"
@@ -1767,8 +1776,11 @@
           <runcommandpicklistitem>"${OUTPUT_PATH}" /selected_crops/Gallery/ ../../selected_crops/annotations_GalleryImages15.txt --train</runcommandpicklistitem>
           <runcommandpicklistitem>"${OUTPUT_PATH}" selected_crops/Gallery/ selected_crops/annotations_GalleryImages15.txt --train</runcommandpicklistitem>
           <runcommandpicklistitem>"${OUTPUT_PATH}" selected_crops/Gallery/ selected_crops/annotations_GalleryImages.txt --train</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" train/Gallery/ selected_crops/annotations_GalleryImages.txt --train</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" dataset/Gallery/ selected_crops/annotations_GalleryImages.txt --train</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" dataset/Gallery/ dataset/annotations_GalleryImages.txt --train</runcommandpicklistitem>
         </runcommandpicklist>
-        <runcommand>"${OUTPUT_PATH}" selected_crops/Gallery/ selected_crops/annotations_GalleryImages.txt --train</runcommand>
+        <runcommand>"${OUTPUT_PATH}" dataset/Gallery/ dataset/annotations_GalleryImages.txt --train</runcommand>
         <rundir>.</rundir>
         <buildfirst>true</buildfirst>
         <terminal-type>0</terminal-type>
@@ -1820,8 +1832,11 @@
           <runcommandpicklistitem>"${OUTPUT_PATH}" selected_crops/Gallery/ selected_crops/annotations_GalleryImages15.txt --train</runcommandpicklistitem>
           <runcommandpicklistitem>"${OUTPUT_PATH}" selected_crops/Gallery/ selected_crops/annotations_ProbeImages.txt</runcommandpicklistitem>
           <runcommandpicklistitem>"${OUTPUT_PATH}" selected_crops/Probe/ selected_crops/annotations_ProbeImages.txt</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" dataset/Probe/ selected_crops/annotations_ProbeImages.txt</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" dataset/Probe/ dataset/annotations_ProbeImages.txt</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" dataset/Probe/ dataset/annotations_ProbeImages3.txt</runcommandpicklistitem>
         </runcommandpicklist>
-        <runcommand>"${OUTPUT_PATH}" selected_crops/Probe/ selected_crops/annotations_ProbeImages.txt</runcommand>
+        <runcommand>"${OUTPUT_PATH}" dataset/Probe/ dataset/annotations_ProbeImages3.txt</runcommand>
         <rundir>.</rundir>
         <buildfirst>true</buildfirst>
         <terminal-type>0</terminal-type>
@@ -1873,8 +1888,11 @@
           <runcommandpicklistitem>"${OUTPUT_PATH}" selected_crops/Gallery/ selected_crops/annotations_GalleryImages15.txt --train</runcommandpicklistitem>
           <runcommandpicklistitem>"${OUTPUT_PATH}" selected_crops/Evaluation/ selected_crops/annotations_EvaluationImages.txt --train</runcommandpicklistitem>
           <runcommandpicklistitem>"${OUTPUT_PATH}" selected_crops/Evaluation/ selected_crops/annotations_EvaluationImages.txt</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" dataset/Evaluation/ selected_crops/annotations_EvaluationImages.txt</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" dataset/Evaluation/ dataset/annotations_EvaluationImages3.txt</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" dataset/Evaluation/ dataset/annotations_EvaluationImages.txt</runcommandpicklistitem>
         </runcommandpicklist>
-        <runcommand>"${OUTPUT_PATH}" selected_crops/Evaluation/ selected_crops/annotations_EvaluationImages.txt</runcommand>
+        <runcommand>"${OUTPUT_PATH}" dataset/Evaluation/ dataset/annotations_EvaluationImages.txt</runcommand>
         <rundir>.</rundir>
         <buildfirst>true</buildfirst>
         <terminal-type>0</terminal-type>
