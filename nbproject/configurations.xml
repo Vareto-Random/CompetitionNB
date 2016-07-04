@@ -4584,7 +4584,7 @@
         </ccTool>
       </item>
       <item path="src/Cell.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
+        <ccTool flags="0">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4592,16 +4592,12 @@
             <pElem>.</pElem>
           </incDir>
           <preprocessorList>
-            <Elem>DLIB_JPEG_SUPPORT</Elem>
-            <Elem>DLIB_PNG_SUPPORT</Elem>
-            <Elem>DLIB_USE_BLAS</Elem>
-            <Elem>DLIB_USE_LAPACK</Elem>
             <Elem>NDEBUG</Elem>
           </preprocessorList>
         </ccTool>
       </item>
       <item path="src/Collection.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
+        <ccTool flags="0">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4609,16 +4605,12 @@
             <pElem>.</pElem>
           </incDir>
           <preprocessorList>
-            <Elem>DLIB_JPEG_SUPPORT</Elem>
-            <Elem>DLIB_PNG_SUPPORT</Elem>
-            <Elem>DLIB_USE_BLAS</Elem>
-            <Elem>DLIB_USE_LAPACK</Elem>
             <Elem>NDEBUG</Elem>
           </preprocessorList>
         </ccTool>
       </item>
       <item path="src/ColorHistogram.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
+        <ccTool flags="0">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4626,16 +4618,12 @@
             <pElem>.</pElem>
           </incDir>
           <preprocessorList>
-            <Elem>DLIB_JPEG_SUPPORT</Elem>
-            <Elem>DLIB_PNG_SUPPORT</Elem>
-            <Elem>DLIB_USE_BLAS</Elem>
-            <Elem>DLIB_USE_LAPACK</Elem>
             <Elem>NDEBUG</Elem>
           </preprocessorList>
         </ccTool>
       </item>
       <item path="src/Component.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
+        <ccTool flags="0">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4643,16 +4631,12 @@
             <pElem>.</pElem>
           </incDir>
           <preprocessorList>
-            <Elem>DLIB_JPEG_SUPPORT</Elem>
-            <Elem>DLIB_PNG_SUPPORT</Elem>
-            <Elem>DLIB_USE_BLAS</Elem>
-            <Elem>DLIB_USE_LAPACK</Elem>
             <Elem>NDEBUG</Elem>
           </preprocessorList>
         </ccTool>
       </item>
       <item path="src/CompoundLocalBinaryPattern.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
+        <ccTool flags="0">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4660,16 +4644,12 @@
             <pElem>.</pElem>
           </incDir>
           <preprocessorList>
-            <Elem>DLIB_JPEG_SUPPORT</Elem>
-            <Elem>DLIB_PNG_SUPPORT</Elem>
-            <Elem>DLIB_USE_BLAS</Elem>
-            <Elem>DLIB_USE_LAPACK</Elem>
             <Elem>NDEBUG</Elem>
           </preprocessorList>
         </ccTool>
       </item>
       <item path="src/Face.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
+        <ccTool flags="0">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4677,16 +4657,12 @@
             <pElem>.</pElem>
           </incDir>
           <preprocessorList>
-            <Elem>DLIB_JPEG_SUPPORT</Elem>
-            <Elem>DLIB_PNG_SUPPORT</Elem>
-            <Elem>DLIB_USE_BLAS</Elem>
-            <Elem>DLIB_USE_LAPACK</Elem>
             <Elem>NDEBUG</Elem>
           </preprocessorList>
         </ccTool>
       </item>
       <item path="src/GaborFilter.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
+        <ccTool flags="0">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4694,16 +4670,12 @@
             <pElem>.</pElem>
           </incDir>
           <preprocessorList>
-            <Elem>DLIB_JPEG_SUPPORT</Elem>
-            <Elem>DLIB_PNG_SUPPORT</Elem>
-            <Elem>DLIB_USE_BLAS</Elem>
-            <Elem>DLIB_USE_LAPACK</Elem>
             <Elem>NDEBUG</Elem>
           </preprocessorList>
         </ccTool>
       </item>
       <item path="src/HistogramOrientedGradient.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
+        <ccTool flags="0">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4711,10 +4683,6 @@
             <pElem>.</pElem>
           </incDir>
           <preprocessorList>
-            <Elem>DLIB_JPEG_SUPPORT</Elem>
-            <Elem>DLIB_PNG_SUPPORT</Elem>
-            <Elem>DLIB_USE_BLAS</Elem>
-            <Elem>DLIB_USE_LAPACK</Elem>
             <Elem>NDEBUG</Elem>
           </preprocessorList>
         </ccTool>
@@ -4754,7 +4722,7 @@
         </ccTool>
       </item>
       <item path="src/LocalBinaryPattern.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
+        <ccTool flags="0">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4762,10 +4730,6 @@
             <pElem>.</pElem>
           </incDir>
           <preprocessorList>
-            <Elem>DLIB_JPEG_SUPPORT</Elem>
-            <Elem>DLIB_PNG_SUPPORT</Elem>
-            <Elem>DLIB_USE_BLAS</Elem>
-            <Elem>DLIB_USE_LAPACK</Elem>
             <Elem>NDEBUG</Elem>
           </preprocessorList>
         </ccTool>
@@ -4788,7 +4752,7 @@
         </ccTool>
       </item>
       <item path="src/MeanIntensity.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
+        <ccTool flags="0">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4796,10 +4760,6 @@
             <pElem>.</pElem>
           </incDir>
           <preprocessorList>
-            <Elem>DLIB_JPEG_SUPPORT</Elem>
-            <Elem>DLIB_PNG_SUPPORT</Elem>
-            <Elem>DLIB_USE_BLAS</Elem>
-            <Elem>DLIB_USE_LAPACK</Elem>
             <Elem>NDEBUG</Elem>
           </preprocessorList>
         </ccTool>
@@ -4842,7 +4802,7 @@
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="1">
+        <ccTool flags="0">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4850,10 +4810,6 @@
             <pElem>.</pElem>
           </incDir>
           <preprocessorList>
-            <Elem>DLIB_JPEG_SUPPORT</Elem>
-            <Elem>DLIB_PNG_SUPPORT</Elem>
-            <Elem>DLIB_USE_BLAS</Elem>
-            <Elem>DLIB_USE_LAPACK</Elem>
             <Elem>NDEBUG</Elem>
           </preprocessorList>
         </ccTool>
@@ -4893,7 +4849,7 @@
         </ccTool>
       </item>
       <item path="src/Useful.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
+        <ccTool flags="0">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4901,10 +4857,6 @@
             <pElem>.</pElem>
           </incDir>
           <preprocessorList>
-            <Elem>DLIB_JPEG_SUPPORT</Elem>
-            <Elem>DLIB_PNG_SUPPORT</Elem>
-            <Elem>DLIB_USE_BLAS</Elem>
-            <Elem>DLIB_USE_LAPACK</Elem>
             <Elem>NDEBUG</Elem>
           </preprocessorList>
         </ccTool>

@@ -63,7 +63,8 @@ int main(int argc, const char * argv[]) {
 //        train.getAllFeatures(gallerySamples, galleryLabels);
 //        cout << "ROWS: " << gallerySamples.rows << " - COLS: " << gallerySamples.cols << endl;
         
-        Useful::readCNNfeatures("dataset/Features/Gallery_34.txt", note, gallerySamples, galleryLabels);
+        Useful::readCNNfeatures("dataset/Features/Gallery_34.txt", "dataset/annotations_GalleryImages.txt", gallerySamples, galleryLabels);
+        cout << "ROWS: " << gallerySamples.rows << " - COLS: " << gallerySamples.cols << endl;
 
         cout << "\tWriting features to file: features_" + note.substr(note.find_last_of("/") + 1) << endl;
         ofstream outfile;
@@ -122,12 +123,12 @@ int main(int argc, const char * argv[]) {
         cout << "\t- " << galleryLabels.back().getId() << "\n";
         cout << "\t- " << model.models.back().regression(0, 0) << "\n";
 
-        cout << "----Reading Probe----\n";
-        ImageSet probe = ImageSet(note, path);
-        probe.readNotes(CROP);
-        probe.increaseWindowSize(1.15);
-        probe.loadFaces(CROP);
-        
+//        cout << "----Reading Probe----\n";
+//        ImageSet probe = ImageSet(note, path);
+//        probe.readNotes(CROP);
+//        probe.increaseWindowSize(1.15);
+//        probe.loadFaces(CROP);
+//        
 //        cout << "----Generating Test Collection----\n";
 //        Collection test = Collection(probe.getImageArray());
 //        test.resizeFaces(256);
@@ -140,17 +141,14 @@ int main(int argc, const char * argv[]) {
 //        test.fetchComponents(SHOW);
 //        cout << "\tProbe Face Fetching\n";
 //        test.fetchFaces(SHOW);
-//
-        vector<string> samples = probe.getSamples();
-        vector<string> subjects = probe.getSubjects();
+        
+        cout << "\tAll Features Fetching\n";
+        // test.getAllFeatures(probeSamples, probeLabels);
+        vector<string> subjects = Useful::readCNNfeatures("dataset/Features/Evaluation_34.txt", "dataset/annotations_EvaluationImages.txt", probeSamples, probeLabels);
+        cout << "ROWS: " << probeSamples.rows << " - COLS: " << probeSamples.cols << endl;
 
         vector<int> hits(subjects.size(), 0);
         vector<pair<string, float> > ranking( subjects.size() );
-
-        cout << "\tAll Features Fetching\n";
-        // test.getAllFeatures(probeSamples, probeLabels);
-        Useful::readCNNfeatures("dataset/Features/Evaluation_34.txt", note, probeSamples, probeLabels);
-        cout << "ROWS: " << probeSamples.rows << " - COLS: " << probeSamples.cols << endl;
 
         cout << "\tWriting features to file: features_" + note.substr(note.find_last_of("/") + 1) << endl;
         ofstream outfile;

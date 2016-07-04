@@ -67,14 +67,14 @@ void Useful::save2file(const PLSclassifier &_model, const Matrix &_responses, co
     output.close();
 }
 
-bool Useful::readCNNfeatures(const string &_featurePath, const string &_notePath, cv::Mat &_featureMatrix, Labels &_featureLabels) {
+vector<string> Useful::readCNNfeatures(const string &_featurePath, const string &_notePath, cv::Mat &_featureMatrix, Labels &_featureLabels) {
     ifstream inFeature, inLabels;
+    set<string> subjects;
 
     inLabels.open(_notePath, ifstream::in);
     if (inLabels.is_open()) {
         Annotation data;
         vector<Annotation> dataArray;
-        vector<string> subjects;
         
         while (inLabels.good()) {
             inLabels >> data.file;
@@ -83,7 +83,7 @@ bool Useful::readCNNfeatures(const string &_featurePath, const string &_notePath
             inLabels >> data.width;
             inLabels >> data.height;
             
-            subjects.push_back(data.file.substr(0, 3));
+            subjects.insert(data.file.substr(0, 3));
             dataArray.push_back(data);
             // cout << data.file.substr(0, 3) << " ";
         }
@@ -96,7 +96,6 @@ bool Useful::readCNNfeatures(const string &_featurePath, const string &_notePath
         // cout << endl << "Size: " << _featureLabels.size() << endl;
     } else {
         cerr << "You have inserted the wrong path to the CNN annotation file" << endl;
-        return false;
     }
     inLabels.close();
 
@@ -116,20 +115,19 @@ bool Useful::readCNNfeatures(const string &_featurePath, const string &_notePath
         cv::Mat featuresMat(rows, cols, CV_32F, &features[0]);
         _featureMatrix = featuresMat.clone();
         
-        for (unsigned int outer = 0; outer < _featureMatrix.rows; outer++) {        
-            for (unsigned int inner = 0; inner < _featureMatrix.cols; inner++) {
-                cout << _featureMatrix.row(outer).col(inner) << " ";
-            }
-            cin.get();
-        }
+//        for (unsigned int outer = 0; outer < _featureMatrix.rows; outer++) {        
+//            for (unsigned int inner = 0; inner < _featureMatrix.cols; inner++) {
+//                cout << _featureMatrix.row(outer).col(inner) << " ";
+//            }
+//            cin.get();
+//        }
         
         featuresMat.release();
         
     } else {
         cerr << "You have inserted the wrong path to the CNN feature file" << endl;
-        return false;
     }
     inFeature.close();
     
-    return true;
+    return vector<string>(subjects.begin(), subjects.end());
 }

@@ -22,7 +22,7 @@ class Useful {
 public:
     static void gradient(const Image &_image, Matrix &_orientation, Matrix &_magnitude);
     static void save2file(const PLSclassifier &_model, const Matrix &_responses, const Labels &_probeLabels);
-    static bool readCNNfeatures(const string &_featurePath, const string &_notePath, cv::Mat &_featureMatrix, Labels &_featureLabels);
+    static vector<string> readCNNfeatures(const string &_featurePath, const string &_notePath, cv::Mat &_featureMatrix, Labels &_featureLabels);
 };
 
 #endif /* Useful_hpp */
