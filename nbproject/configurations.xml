@@ -4143,7 +4143,8 @@
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <flagsDictionary>
-        <element flagsID="0" commonFlags="-std=c++11 -std=c++11 -O3"/>
+        <element flagsID="0" commonFlags="-std=c++11 -fopenmp -O3"/>
+        <element flagsID="1" commonFlags="-std=c++11 -std=c++11 -O3"/>
       </flagsDictionary>
       <codeAssistance>
       </codeAssistance>
@@ -4566,7 +4567,7 @@
         </cTool>
       </folder>
       <item path="src/Annotation.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4583,7 +4584,7 @@
         </ccTool>
       </item>
       <item path="src/Cell.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4600,7 +4601,7 @@
         </ccTool>
       </item>
       <item path="src/Collection.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4617,7 +4618,7 @@
         </ccTool>
       </item>
       <item path="src/ColorHistogram.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4634,7 +4635,7 @@
         </ccTool>
       </item>
       <item path="src/Component.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4651,7 +4652,7 @@
         </ccTool>
       </item>
       <item path="src/CompoundLocalBinaryPattern.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4668,7 +4669,7 @@
         </ccTool>
       </item>
       <item path="src/Face.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4685,7 +4686,7 @@
         </ccTool>
       </item>
       <item path="src/GaborFilter.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4702,7 +4703,7 @@
         </ccTool>
       </item>
       <item path="src/HistogramOrientedGradient.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4719,7 +4720,7 @@
         </ccTool>
       </item>
       <item path="src/ImageSet.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4736,7 +4737,7 @@
         </ccTool>
       </item>
       <item path="src/Label.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4753,7 +4754,7 @@
         </ccTool>
       </item>
       <item path="src/LocalBinaryPattern.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4770,7 +4771,7 @@
         </ccTool>
       </item>
       <item path="src/Matrix.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4787,7 +4788,7 @@
         </ccTool>
       </item>
       <item path="src/MeanIntensity.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4804,7 +4805,7 @@
         </ccTool>
       </item>
       <item path="src/PLSclassifier.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4821,7 +4822,7 @@
         </ccTool>
       </item>
       <item path="src/PLSregression.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4841,7 +4842,7 @@
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4858,7 +4859,7 @@
         </ccTool>
       </item>
       <item path="src/SlideWindow.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4875,7 +4876,7 @@
         </ccTool>
       </item>
       <item path="src/UStandardDeviation.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4892,7 +4893,7 @@
         </ccTool>
       </item>
       <item path="src/Useful.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4909,7 +4910,7 @@
         </ccTool>
       </item>
       <item path="src/ZeroMean.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4926,7 +4927,7 @@
         </ccTool>
       </item>
       <item path="src/ZeroScore.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -4956,32 +4957,32 @@
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/bigint/bigint_kernel_1.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/bigint/bigint_kernel_2.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/bit_stream/bit_stream_kernel_1.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/bsp/bsp.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c"
@@ -5003,56 +5004,56 @@
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/dir_nav/dir_nav_extensions.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/dir_nav/dir_nav_kernel_1.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/dir_nav/dir_nav_kernel_2.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/external/libjpeg/jcapimin.cpp"
@@ -5363,44 +5364,44 @@
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/gui_core/gui_core_kernel_2.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/gui_widgets/base_widgets.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/gui_widgets/canvas_drawing.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/gui_widgets/drawable.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/gui_widgets/fonts.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/gui_widgets/style.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/gui_widgets/widgets.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/http_client/http_client.cpp"
@@ -5412,50 +5413,50 @@
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/image_loader/png_loader.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/image_saver/save_jpeg.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/image_saver/save_png.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/linker/linker_kernel_1.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/logger/extra_logger_headers.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/logger/logger_config_file.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/logger/logger_kernel_1.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/matlab/example.m" ex="false" tool="0" flavor2="2">
@@ -5473,75 +5474,75 @@
       <item path="src/dlib/matlab/mex_wrapper.cpp" ex="false" tool="1" flavor2="4">
       </item>
       <item path="src/dlib/md5/md5_kernel_1.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/misc_api/misc_api_kernel_1.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/misc_api/misc_api_kernel_2.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/server/server_http.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/server/server_iostream.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/server/server_kernel.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/sockets/sockets_extensions.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/sockets/sockets_kernel_1.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/sockets/sockets_kernel_2.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/sockstreambuf/sockstreambuf.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/stack_trace.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
           <incDir>
             <pElem>/usr/local/include/opencv</pElem>
             <pElem>/usr/local/include</pElem>
@@ -5947,57 +5948,57 @@
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/threads/thread_pool_extension.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/threads/threaded_object_extension.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/threads/threads_kernel_1.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/threads/threads_kernel_2.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/threads/threads_kernel_shared.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/timer/timer.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/tokenizer/tokenizer_kernel_1.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/dlib/unicode/unicode.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/main.cpp" ex="false" tool="1" flavor2="8">
@@ -6009,10 +6010,6 @@
             <pElem>.</pElem>
           </incDir>
           <preprocessorList>
-            <Elem>DLIB_JPEG_SUPPORT</Elem>
-            <Elem>DLIB_PNG_SUPPORT</Elem>
-            <Elem>DLIB_USE_BLAS</Elem>
-            <Elem>DLIB_USE_LAPACK</Elem>
             <Elem>NDEBUG</Elem>
           </preprocessorList>
         </ccTool>

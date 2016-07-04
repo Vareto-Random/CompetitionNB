@@ -128,19 +128,19 @@ int main(int argc, const char * argv[]) {
         probe.increaseWindowSize(1.15);
         probe.loadFaces(CROP);
         
-        cout << "----Generating Test Collection----\n";
-        Collection test = Collection(probe.getImageArray());
-        test.resizeFaces(256);
-        test.sharpenFaces();
-        cout << "\tProbe Landmark Identification\n";
-        test.fetchLandmarks(string(PREDICTOR), SHOW);
-        cout << "\tProbe Cells Fetching\n";
-        test.fetchCells(SHOW);
-        cout << "\tProbe Components Fetching\n";
-        test.fetchComponents(SHOW);
-        cout << "\tProbe Face Fetching\n";
-        test.fetchFaces(SHOW);
-
+//        cout << "----Generating Test Collection----\n";
+//        Collection test = Collection(probe.getImageArray());
+//        test.resizeFaces(256);
+//        test.sharpenFaces();
+//        cout << "\tProbe Landmark Identification\n";
+//        test.fetchLandmarks(string(PREDICTOR), SHOW);
+//        cout << "\tProbe Cells Fetching\n";
+//        test.fetchCells(SHOW);
+//        cout << "\tProbe Components Fetching\n";
+//        test.fetchComponents(SHOW);
+//        cout << "\tProbe Face Fetching\n";
+//        test.fetchFaces(SHOW);
+//
         vector<string> samples = probe.getSamples();
         vector<string> subjects = probe.getSubjects();
 
@@ -148,7 +148,8 @@ int main(int argc, const char * argv[]) {
         vector<pair<string, float> > ranking( subjects.size() );
 
         cout << "\tAll Features Fetching\n";
-        test.getAllFeatures(probeSamples, probeLabels);
+        // test.getAllFeatures(probeSamples, probeLabels);
+        Useful::readCNNfeatures("dataset/Features/Evaluation_34.txt", note, probeSamples, probeLabels);
         cout << "ROWS: " << probeSamples.rows << " - COLS: " << probeSamples.cols << endl;
 
         cout << "\tWriting features to file: features_" + note.substr(note.find_last_of("/") + 1) << endl;

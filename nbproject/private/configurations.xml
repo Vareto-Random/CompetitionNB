@@ -39,10 +39,8 @@
         <df name="Probe">
         </df>
         <in>annotations_EvaluationImages.txt</in>
-        <in>annotations_EvaluationImages3.txt</in>
         <in>annotations_GalleryImages.txt</in>
         <in>annotations_ProbeImages.txt</in>
-        <in>annotations_ProbeImages3.txt</in>
       </df>
       <df name="dlib_build">
         <df name="CMakeFiles">
@@ -1674,9 +1672,11 @@
       <in>features_annotations_EvaluationImages.txt</in>
       <in>features_annotations_GalleryImages.txt</in>
       <in>features_annotations_ProbeImages.txt</in>
+      <in>features_annotations_ProbeImages3.txt</in>
       <in>labels_annotations_EvaluationImages.txt</in>
       <in>labels_annotations_GalleryImages.txt</in>
       <in>labels_annotations_ProbeImages.txt</in>
+      <in>labels_annotations_ProbeImages3.txt</in>
     </df>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
@@ -1833,10 +1833,10 @@
           <runcommandpicklistitem>"${OUTPUT_PATH}" selected_crops/Gallery/ selected_crops/annotations_ProbeImages.txt</runcommandpicklistitem>
           <runcommandpicklistitem>"${OUTPUT_PATH}" selected_crops/Probe/ selected_crops/annotations_ProbeImages.txt</runcommandpicklistitem>
           <runcommandpicklistitem>"${OUTPUT_PATH}" dataset/Probe/ selected_crops/annotations_ProbeImages.txt</runcommandpicklistitem>
-          <runcommandpicklistitem>"${OUTPUT_PATH}" dataset/Probe/ dataset/annotations_ProbeImages.txt</runcommandpicklistitem>
           <runcommandpicklistitem>"${OUTPUT_PATH}" dataset/Probe/ dataset/annotations_ProbeImages3.txt</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" dataset/Probe/ dataset/annotations_ProbeImages.txt</runcommandpicklistitem>
         </runcommandpicklist>
-        <runcommand>"${OUTPUT_PATH}" dataset/Probe/ dataset/annotations_ProbeImages3.txt</runcommand>
+        <runcommand>"${OUTPUT_PATH}" dataset/Probe/ dataset/annotations_ProbeImages.txt</runcommand>
         <rundir>.</rundir>
         <buildfirst>true</buildfirst>
         <terminal-type>0</terminal-type>
